@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CANDARA.TTF">
+            <string>Candara</string>
+            <string>Candara</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterTableViewCell" id="ytt-st-FPq" customClass="FilterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ytt-st-FPq" id="hUD-ky-wVH">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJH-Lm-bSr">
+                        <rect key="frame" x="50" y="5" width="500" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="Iqg-Wy-gZz"/>
+                        </connections>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Irh-j6-8CW">
+                        <rect key="frame" x="50" y="5" width="500" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="14"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="check_icon_sel1"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="fJH-Lm-bSr" firstAttribute="leading" secondItem="hUD-ky-wVH" secondAttribute="leading" constant="50" id="5XO-2L-mY1"/>
+                    <constraint firstAttribute="bottom" secondItem="Irh-j6-8CW" secondAttribute="bottom" constant="4" id="65c-fE-6Uy"/>
+                    <constraint firstItem="fJH-Lm-bSr" firstAttribute="top" secondItem="hUD-ky-wVH" secondAttribute="top" constant="5" id="6Gy-Yr-u5e"/>
+                    <constraint firstItem="Irh-j6-8CW" firstAttribute="leading" secondItem="hUD-ky-wVH" secondAttribute="leading" constant="50" id="8qa-ox-1A6"/>
+                    <constraint firstAttribute="trailing" secondItem="Irh-j6-8CW" secondAttribute="trailing" constant="50" id="Bn8-l4-WY1"/>
+                    <constraint firstAttribute="trailing" secondItem="fJH-Lm-bSr" secondAttribute="trailing" constant="50" id="XyR-ER-lCi"/>
+                    <constraint firstItem="Irh-j6-8CW" firstAttribute="top" secondItem="hUD-ky-wVH" secondAttribute="top" constant="5" id="jad-xK-vfQ"/>
+                    <constraint firstAttribute="bottom" secondItem="fJH-Lm-bSr" secondAttribute="bottom" constant="4" id="lvq-0B-iHj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="filterButton" destination="Irh-j6-8CW" id="4Hx-kx-uRz"/>
+                <outlet property="filterTextfield" destination="fJH-Lm-bSr" id="mQK-Jf-g2F"/>
+            </connections>
+            <point key="canvasLocation" x="292" y="111"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check_icon_sel1" width="30" height="30"/>
+    </resources>
+</document>

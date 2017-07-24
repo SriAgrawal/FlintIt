@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Menu Section/MenuVC.m"
+            timestampString = "521714498.211361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Messages LIst/MessagesVC.m"
+            timestampString = "521721026.519453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
+            landmarkName = "-requestToFetchUserChatList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Messages LIst/MessagesVC.m"
+            timestampString = "521721042.095473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "-requestToFetchUserChatList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Email List/EmailListViewController.m"
+            timestampString = "521721575.346471"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "453"
+            endingLineNumber = "453"
+            landmarkName = "-callApiToUpdateList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Email List/EmailListViewController.m"
+            timestampString = "521721576.465452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "457"
+            endingLineNumber = "457"
+            landmarkName = "-requestDictForAllEmail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Email List/EmailListViewController.m"
+            timestampString = "521721659.957401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
+            landmarkName = "-requestDictForAllEmail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Client Detail/ClientDetailViewController.m"
+            timestampString = "521811885.564759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-initialSetup"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "474"
+            endingLineNumber = "474"
+            landmarkName = "-handleNotificationForAccept:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "537"
+            endingLineNumber = "537"
+            landmarkName = "-handleNotificationForAccept:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate handleNotificationForAccept:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.924469"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.009343"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "537"
+                  endingLineNumber = "537"
+                  offsetFromSymbolStart = "2179">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__102-[AppDelegate handleNotificationForAccept:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]_block_invoke.348"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.925835"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.01171"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "537"
+                  endingLineNumber = "537"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "634"
+            endingLineNumber = "634"
+            landmarkName = "-handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.928749"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.014894"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
+                  offsetFromSymbolStart = "681">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__102-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.930123"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.016326"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "675"
+            endingLineNumber = "675"
+            landmarkName = "-handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.933536"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.019227"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__102-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]_block_invoke.363"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.935257"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.020688"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "707"
+            endingLineNumber = "707"
+            landmarkName = "-handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.938082"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.023615"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "707"
+                  endingLineNumber = "707"
+                  offsetFromSymbolStart = "3030">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__102-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]_block_invoke.367"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.939602"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.025217"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "707"
+                  endingLineNumber = "707"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/AppDelegate Class/AppDelegate.m"
+            timestampString = "521807040.905606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "749"
+            endingLineNumber = "749"
+            landmarkName = "-handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.942487"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.0291"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "749"
+                  endingLineNumber = "749"
+                  offsetFromSymbolStart = "3994">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__102-[AppDelegate handleNotificationForCancel:andIsActiveOrInactive:andController:isFromDidReceiveRemote:]_block_invoke.371"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521963804.943852"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate%20Class/AppDelegate.m"
+                  timestampString = "521812781.030524"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "749"
+                  endingLineNumber = "749"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Email Screen/EmailVC.m"
+            timestampString = "521730150.979705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-requestDictForEmailSending"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Service Provider&apos;s Detail/ProviderDetial.m"
+            timestampString = "521731990.588802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "913"
+            endingLineNumber = "913"
+            landmarkName = "-makeServiceCallToGetUserDetail"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ProviderDetial makeServiceCallToGetUserDetail]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Service%20Provider&apos;s%20Detail/ProviderDetial.m"
+                  timestampString = "521793795.177413"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "913"
+                  endingLineNumber = "913"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[ProviderDetial makeServiceCallToGetUserDetail]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Service%20Provider&apos;s%20Detail/ProviderDetial.m"
+                  timestampString = "521793795.179218"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "913"
+                  endingLineNumber = "913"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+=======
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Edit Profile/EditProfileViewController.m"
+            timestampString = "521733773.807121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "386"
+            endingLineNumber = "386"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Service Tracking/ServiceTrackingViewController.m"
+            timestampString = "521793237.845018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Client Detail/ClientDetailViewController.m"
+            timestampString = "521811885.564759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-initialSetup"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Custom Pop Up Screen/PopUPVC.m"
+            timestampString = "521737005.291861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
+            landmarkName = "-requestDictForJobRequest"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PopUPVC requestDictForJobRequest]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Custom%20Pop%20Up%20Screen/PopUPVC.m"
+                  timestampString = "521737008.215276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "473"
+                  endingLineNumber = "473"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[PopUPVC requestDictForJobRequest]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Custom%20Pop%20Up%20Screen/PopUPVC.m"
+                  timestampString = "521737008.219647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "473"
+                  endingLineNumber = "473"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Custom Pop Up Screen/PopUPVC.m"
+            timestampString = "521737006.187995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "476"
+            endingLineNumber = "476"
+            landmarkName = "-requestDictForJobRequest"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/Web Service Classes/HelperClasses/OPServiceHelper.m"
+            timestampString = "521737017.005407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "-PostAPICallWithParameter:apiName:WithComptionBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Job Request/JobRequestVC.m"
+            timestampString = "521793079.140672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "-requestDictForJobRequestList:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JobRequestVC requestDictForJobRequestList:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Service%20Provider%20Side/Job%20Request/JobRequestVC.m"
+                  timestampString = "521793079.470203"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "846">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[JobRequestVC requestDictForJobRequestList:]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Service%20Provider%20Side/Job%20Request/JobRequestVC.m"
+                  timestampString = "521793079.47159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Job Request/JobRequestVC.m"
+            timestampString = "521793079.140672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-requestDictForJobRequestList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/Web Service Classes/HelperClasses/OPServiceHelper.m"
+            timestampString = "521737398.450357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "-PostAPICallWithParameter:apiName:WithComptionBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/Modal Classes/Row Data Modal/RowDataModal.m"
+            timestampString = "521737540.759848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "+parseJobRequestList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Notification List/NotificationViewController.m"
+            timestampString = "521792304.234891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Service Tracking/ServiceTrackingVC.m"
+            timestampString = "521803940.634036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
+            landmarkName = "-requestDictForServiceProviderList:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ServiceTrackingVC requestDictForServiceProviderList:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Service%20Tracking/ServiceTrackingVC.m"
+                  timestampString = "521793238.055624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "379"
+                  endingLineNumber = "379"
+                  offsetFromSymbolStart = "1222">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55-[ServiceTrackingVC requestDictForServiceProviderList:]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/Service%20Tracking/ServiceTrackingVC.m"
+                  timestampString = "521793238.057123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "379"
+                  endingLineNumber = "379"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Service Tracking/ServiceTrackingVC.m"
+            timestampString = "521803940.634036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "-menuButtonAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Service Tracking/ServiceTrackingVC.m"
+            timestampString = "521803940.634036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "-menuButtonAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521807320.709021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "942"
+            endingLineNumber = "942"
+            landmarkName = "-requestDictForSignUp"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SignUpVC requestDictForSignUp]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521963804.957511"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521812781.054119"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "942"
+                  endingLineNumber = "942"
+                  offsetFromSymbolStart = "4531">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[SignUpVC requestDictForSignUp]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< HEAD
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521963804.958883"
+=======
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521812781.05612"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "942"
+                  endingLineNumber = "942"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521807320.709021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "940"
+            endingLineNumber = "940"
+            landmarkName = "-requestDictForSignUp"
+<<<<<<< HEAD
+=======
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521807320.709021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
+            landmarkName = "-addContactPrefixPicker:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SignUpVC addContactPrefixPicker:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521812781.064078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[SignUpVC addContactPrefixPicker:]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iOSBackendAbdul/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521812781.065539"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521807852.172912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "925"
+            endingLineNumber = "925"
+            landmarkName = "-requestDictForSignUp"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+<<<<<<< HEAD
+            timestampString = "521807320.709021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
+            landmarkName = "-addContactPrefixPicker:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SignUpVC addContactPrefixPicker:]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521963804.964154"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[SignUpVC addContactPrefixPicker:]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anilkumar/Desktop/iosappwithbackenddevelopment-16022564-ios%202/iOSBackendDevelopment/View%20Controllers/Client%20Side/SignUp/SignUpVC.m"
+                  timestampString = "521963804.965618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521807852.172912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "925"
+            endingLineNumber = "925"
+            landmarkName = "-requestDictForSignUp"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/SignUp/SignUpVC.m"
+            timestampString = "521808088.22492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+=======
+            timestampString = "521808088.22492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+>>>>>>> 4ad1ae2d473c26f6f7de74ee0f61ab7933d38530
+            startingLineNumber = "906"
+            endingLineNumber = "906"
+            landmarkName = "-requestDictForSignUp"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Client Side/Notification List/Particular Notification/AcceptedJobVC.m"
+            timestampString = "521815375.955112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "-viewProfileAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

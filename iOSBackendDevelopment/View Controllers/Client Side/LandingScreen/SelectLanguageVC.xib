@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+        <array key="Candarab.ttf">
+            <string>Candara-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectLanguageVC">
+            <connections>
+                <outlet property="btnPropertyClientLogin" destination="bsr-Ap-ZIi" id="PHN-EQ-D6D"/>
+                <outlet property="btnPropertyClientSignUp" destination="ucy-Fd-0mw" id="Zbf-4T-amr"/>
+                <outlet property="btnPropertyOptionLanguage" destination="JjO-tw-vFC" id="r8V-8Q-42b"/>
+                <outlet property="btnPropertyServiceProviderLogin" destination="rGK-ww-OXd" id="SPI-h9-FUa"/>
+                <outlet property="btnPropertyServiceProviderSignUp" destination="6yt-KO-CZU" id="BaQ-9y-9ak"/>
+                <outlet property="lblSelectLanguage" destination="SdM-LA-hcN" id="tzu-fO-Lhb"/>
+                <outlet property="orLabel" destination="BH5-aA-tHa" id="bzX-me-cww"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCU-x5-D3a">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6UI-JK-mML">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="27" id="moK-ic-pV9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="6UI-JK-mML" firstAttribute="leading" secondItem="GCU-x5-D3a" secondAttribute="leading" constant="8" id="e8y-Zq-jOa"/>
+                        <constraint firstAttribute="bottom" secondItem="6UI-JK-mML" secondAttribute="bottom" constant="11" id="mDM-8a-AJl"/>
+                        <constraint firstAttribute="height" constant="64" id="nxU-S9-dBt"/>
+                        <constraint firstAttribute="trailing" secondItem="6UI-JK-mML" secondAttribute="trailing" constant="8" id="sBM-jY-Kd0"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-XX-XUb"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovo-Gb-lTX">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qc-m7-rLN">
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjO-tw-vFC">
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="hTI-ts-ni0"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="English">
+                                        <color key="titleColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="selectLanguageAction:" destination="-1" eventType="touchUpInside" id="0x8-yx-Hw0"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-LA-hcN">
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="33" id="HYo-oZ-QwR"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara-Bold" family="Candara" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGK-ww-OXd">
+                                    <color key="backgroundColor" red="0.0" green="0.71764705882352942" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="kPb-4C-Fe8"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <state key="normal" title="Login As Service Provider">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="loginServiceProviderAction:" destination="-1" eventType="touchUpInside" id="m1M-hW-RQP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yt-KO-CZU">
+                                    <color key="backgroundColor" red="0.99215686274509807" green="0.42352941176470588" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="qIT-WW-ZTO"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <state key="normal" title="Sign Up As Service Provider">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="signUpServiceProviderAction:" destination="-1" eventType="touchUpInside" id="w9S-GN-Jhb"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9g-sn-9AE">
+                                    <color key="backgroundColor" red="0.37647058823529411" green="0.37254901960784315" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="CmF-M0-lq6"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNb-4Y-lfz">
+                                    <color key="backgroundColor" red="0.37647058823529411" green="0.37254901960784315" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="zy8-zf-RoO"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH5-aA-tHa">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="NZl-GI-NiP"/>
+                                        <constraint firstAttribute="width" constant="27" id="lrS-Zu-YtS"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drop_icon" translatesAutoresizingMaskIntoConstraints="NO" id="P8U-dq-BVe">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="X9Z-7v-6rF"/>
+                                        <constraint firstAttribute="width" constant="20" id="oYd-bM-viR"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsr-Ap-ZIi">
+                                    <color key="backgroundColor" red="0.0" green="0.71764705882352942" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="Y1h-rL-GlY"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <state key="normal" title="Login As Client">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="2HY-KZ-Gam"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucy-Fd-0mw">
+                                    <color key="backgroundColor" red="0.99215686274509807" green="0.42352941176470588" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="bEL-TF-gXo"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                                    <state key="normal" title="Sign Up As Client">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="signUpAction:" destination="-1" eventType="touchUpInside" id="SjD-Pk-B30"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="6yt-KO-CZU" secondAttribute="bottom" constant="145" id="1yW-E4-usp"/>
+                                <constraint firstItem="SdM-LA-hcN" firstAttribute="top" secondItem="4Qc-m7-rLN" secondAttribute="top" constant="47" id="31a-bG-86y"/>
+                                <constraint firstItem="J9g-sn-9AE" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="3VT-p2-4La"/>
+                                <constraint firstAttribute="trailing" secondItem="6yt-KO-CZU" secondAttribute="trailing" constant="34" id="3ld-NX-0rn"/>
+                                <constraint firstItem="gNb-4Y-lfz" firstAttribute="centerY" secondItem="BH5-aA-tHa" secondAttribute="centerY" id="6ou-ZX-Omd"/>
+                                <constraint firstItem="6yt-KO-CZU" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="9vl-Cb-Que"/>
+                                <constraint firstItem="SdM-LA-hcN" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="50" id="CNV-ly-1Mf"/>
+                                <constraint firstItem="bsr-Ap-ZIi" firstAttribute="top" secondItem="JjO-tw-vFC" secondAttribute="bottom" constant="30" id="Dc7-zW-4M4"/>
+                                <constraint firstItem="BH5-aA-tHa" firstAttribute="top" secondItem="ucy-Fd-0mw" secondAttribute="bottom" constant="23" id="DeQ-e6-yHF"/>
+                                <constraint firstAttribute="trailing" secondItem="JjO-tw-vFC" secondAttribute="trailing" constant="34" id="Esz-GR-hic"/>
+                                <constraint firstItem="P8U-dq-BVe" firstAttribute="centerY" secondItem="JjO-tw-vFC" secondAttribute="centerY" id="I0j-XW-kT2"/>
+                                <constraint firstItem="bsr-Ap-ZIi" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="KBa-lG-Tmq"/>
+                                <constraint firstItem="rGK-ww-OXd" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="Mnt-6w-dcw"/>
+                                <constraint firstItem="JjO-tw-vFC" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="NYB-Vv-nh4"/>
+                                <constraint firstItem="ucy-Fd-0mw" firstAttribute="top" secondItem="bsr-Ap-ZIi" secondAttribute="bottom" constant="8" id="NiI-Nq-pf7"/>
+                                <constraint firstAttribute="trailing" secondItem="bsr-Ap-ZIi" secondAttribute="trailing" constant="34" id="P7e-8M-CI8"/>
+                                <constraint firstAttribute="trailing" secondItem="rGK-ww-OXd" secondAttribute="trailing" constant="34" id="VDt-wE-01d"/>
+                                <constraint firstItem="ucy-Fd-0mw" firstAttribute="leading" secondItem="4Qc-m7-rLN" secondAttribute="leading" constant="35" id="YIt-5Q-jfy"/>
+                                <constraint firstAttribute="trailing" secondItem="SdM-LA-hcN" secondAttribute="trailing" constant="45" id="Z6E-dF-AXS"/>
+                                <constraint firstItem="JjO-tw-vFC" firstAttribute="top" secondItem="SdM-LA-hcN" secondAttribute="bottom" constant="14" id="ZTv-lC-uru"/>
+                                <constraint firstItem="BH5-aA-tHa" firstAttribute="leading" secondItem="J9g-sn-9AE" secondAttribute="trailing" constant="5" id="ZaN-bT-vtQ"/>
+                                <constraint firstItem="6yt-KO-CZU" firstAttribute="top" secondItem="rGK-ww-OXd" secondAttribute="bottom" constant="9" id="c0b-aE-cvK"/>
+                                <constraint firstAttribute="trailing" secondItem="gNb-4Y-lfz" secondAttribute="trailing" constant="31" id="cZX-FJ-Qu2"/>
+                                <constraint firstItem="rGK-ww-OXd" firstAttribute="top" secondItem="BH5-aA-tHa" secondAttribute="bottom" constant="19" id="dfr-9m-XnF"/>
+                                <constraint firstAttribute="trailing" secondItem="ucy-Fd-0mw" secondAttribute="trailing" constant="34" id="f5D-f6-VJX"/>
+                                <constraint firstItem="gNb-4Y-lfz" firstAttribute="leading" secondItem="BH5-aA-tHa" secondAttribute="trailing" constant="6" id="jQ6-84-OU0"/>
+                                <constraint firstItem="J9g-sn-9AE" firstAttribute="centerY" secondItem="BH5-aA-tHa" secondAttribute="centerY" id="nfS-q7-skV"/>
+                                <constraint firstItem="BH5-aA-tHa" firstAttribute="centerX" secondItem="4Qc-m7-rLN" secondAttribute="centerX" constant="1.5" id="rwX-Oi-eEx"/>
+                                <constraint firstItem="P8U-dq-BVe" firstAttribute="leading" secondItem="JjO-tw-vFC" secondAttribute="trailing" constant="176" id="yNB-K5-Rk1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="4Qc-m7-rLN" secondAttribute="bottom" id="bDq-tp-oI8"/>
+                        <constraint firstItem="4Qc-m7-rLN" firstAttribute="leading" secondItem="ovo-Gb-lTX" secondAttribute="leading" id="bKc-75-96v"/>
+                        <constraint firstAttribute="trailing" secondItem="4Qc-m7-rLN" secondAttribute="trailing" constant="1" id="jgP-yt-DCO"/>
+                        <constraint firstItem="4Qc-m7-rLN" firstAttribute="top" secondItem="ovo-Gb-lTX" secondAttribute="top" id="xBX-Z2-cE0"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4Qc-m7-rLN" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" constant="-1" id="3E8-Ef-wic"/>
+                <constraint firstItem="GCU-x5-D3a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7b6-Mx-Jbc"/>
+                <constraint firstItem="X5I-XX-XUb" firstAttribute="top" secondItem="GCU-x5-D3a" secondAttribute="bottom" id="85T-aT-zAp"/>
+                <constraint firstAttribute="trailing" secondItem="GCU-x5-D3a" secondAttribute="trailing" id="920-YN-Ncl"/>
+                <constraint firstItem="GCU-x5-D3a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Az1-Oa-kbV"/>
+                <constraint firstItem="ovo-Gb-lTX" firstAttribute="top" secondItem="GCU-x5-D3a" secondAttribute="bottom" id="KBQ-s9-KIJ"/>
+                <constraint firstAttribute="trailing" secondItem="X5I-XX-XUb" secondAttribute="trailing" id="Ma1-kJ-VDQ"/>
+                <constraint firstAttribute="trailing" secondItem="ovo-Gb-lTX" secondAttribute="trailing" id="S9f-Hl-Yba"/>
+                <constraint firstItem="ovo-Gb-lTX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bY1-eX-95q"/>
+                <constraint firstItem="ovo-Gb-lTX" firstAttribute="top" secondItem="GCU-x5-D3a" secondAttribute="bottom" id="cS3-RT-fio"/>
+                <constraint firstAttribute="bottom" secondItem="ovo-Gb-lTX" secondAttribute="bottom" id="eFJ-8u-ZjV"/>
+                <constraint firstAttribute="bottom" secondItem="X5I-XX-XUb" secondAttribute="bottom" id="eKv-c3-pMg"/>
+                <constraint firstItem="X5I-XX-XUb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sEf-9P-Sve"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="320" height="480"/>
+        <image name="drop_icon" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,388 @@
+/* 
+  Localizable.strings
+  iOSBackendDevelopment
+
+  Created by Abhishek Agarwal on 07/04/16.
+  Copyright © 2016 Mobiloitte. All rights reserved.
+*/
+//****************************************** Client Side Screen ************************************************//
+"Please give some reason." = "Por favor dé alguna razón.";
+
+//Select Language Screen
+"Login As Client" = "Está registrado como cliente";
+"Sign Up As Client" = "Registrarse como cliente";
+"Login As Service Provider" = "Registrado como proveedor de servicios";
+"Sign Up As Service Provider" = "Inscribirse como proveedor de servicios";
+"OR" = "O";
+"Setup" = "Preparar";
+"Select Language" = "Seleccione el idioma";
+"English" = "Inglés";
+"Spanish" = "Español";
+"Arabic" = "Arábica";
+
+//Login Screen
+"Select Your Choice" = "Seleccione su opción";
+"Log In" = "Iniciar sesión";
+"Remember me" = "Recuérdame";
+"Forgot password?" = "Se te olvidó tu contraseña?";
+"If YOU ARE NEW USER Sign Up?" = "Si es un usuario nuevo Suscríbete ?";
+"EMAIL" = "CORREO ELECTRÓNICO";
+"PASSWORD" = "CONTRASEÑA";
+"Please enter username or password." = "Por favor, introduzca nombre de usuario o contraseña.";
+"Please enter the email address." = "Por favor, introduzca la dirección de correo electrónico.";
+"Please enter  the valid email address." = "Por favor, introduzca la dirección de correo electrónico válida.";
+"Please enter the password." = "Por favor introduzca la contraseña.";
+"Password must be of atleast 6 characters." = "La contraseña debe ser de menos 6 caracteres.";
+"Invalid Username or Password."= "Usuario o contraseña invalido.";
+"Login and get your job done with a single tap." = "Inicio de sesión y realizar su trabajo con un solo toque.";
+"Are you sure you want to enable your GPS location?" = "¿Seguro que desea activar su ubicación GPS.";
+"Error in login to facebook." = "Error en el inicio de sesión de Facebook.";
+"Invalid email or Password." = "correo electrónico o la contraseña no válido.";
+"Please enter email or password." = "Por favor escriba el correo electrónico o la contraseña.";
+"Please enter email in english." = "Por favor escriba el correo electrónico en Inglés.";
+"Please enter phone no in english." = "Por favor, introduzca el teléfono no está en Inglés.";
+
+
+
+//Sign Up Screen
+"Sign Up and get the right person in the right time for the right job." = "Registrarse y obtener la persona adecuada en el momento adecuado para el trabajo correcto.";
+"Already have an account? Login" = "¿Ya tienes una cuenta? Iniciar sesión";
+"BY CREATING AN ACCOUNT, YOU AGREE TO Flink It TERMS OF SERVICES." = "Al crear una cuenta, ACEPTA Flink It términos de servicios.";
+"Username" = "nombre de usuario";
+"Email Address" = "Dirección de correo electrónico";
+"Password" = "Contraseña";
+"Confirm Password" = "Confirmar contraseña";
+"Age" = "Años";
+"State ,Country(Autofill By Location)" = "Estado, País (Llenado automático por localidad)";
+"Address" = "Dirección";
+"Contact No." = "Contacto No.";
+"Male" = "Masculino";
+"Female" = "Hembra";
+"Gender" = "Género";
+"Sign Up" = "Regístrate";
+"Done" = "Hecho";
+"Distance Preference" = "distancia Preferencia";
+"Please select the user image." = "Por favor seleccione la imagen del usuario.";
+"Please enter the username." = "Por favor, introduzca el nombre de usuario.";
+"Please enter the valid username." = "Por favor, introduzca el nombre de usuario.";
+"Please enter the email address." = "Por favor, introduzca la dirección de correo electrónico.";
+"Please enter the valid email address." = "Por favor, introduzca la dirección de correo electrónico válida.";
+"Please enter the password." = "Por favor introduzca la contraseña.";
+"Password must be of atleast 6 characters." = "La contraseña debe ser de al menos 6 caracteres.";
+"Please enter the confirm password." = "Por favor, introduzca la contraseña de confirmación.";
+"Password and confirm password should be same." = "Contraseña y confirmación de contraseña debe ser la misma.";
+"Please select the age." = "Por favor seleccione la edad.";
+"Please enter the state." = "Por favor, introduzca el estado.";
+"Please enter the address." = "Por favor, introduzca la dirección.";
+"Please enter the contact number." = "Por favor, introduzca el número de contacto.";
+"Contact number must be of 10 characters." = "Número de contacto Dębe SER de 10 Caracteres.";
+"Please select the distance preference." = "Por favor seleccione la preferencia de distancia.";
+"Error!" = "¡Error!";
+"TERMS OF SERVICES" = "TÉRMINOS DE SERVICIOS";
+"Category" = "categoría";
+"Email" = "Email";
+"Please enter the location in full format." ="Por favor, introduzca la ubicación en formato completo.";
+//Mobile Registration Screen
+"Enter OTP sent to your Mobile Device." = "Introducir OTP enviada a su dispositivo móvil";
+"Mobile Registration" = "registro móvil";
+"Confirm" = "Confirmar";
+"Re-send OTP"= "Reenviar mensaje de OTP";
+"Example 2356" = "ejemplo 2356";
+"Please enter the OTP." = "Por favor, introduzca la OTP.";
+
+//Terms and Conditions
+"Terms and Conditions" = "Términos y Condiciones";
+
+//Forgot Password
+"Forgot Password" = "Se te olvidó tu contraseña";
+"Forgot your Password?" = "¿Olvidaste tu contraseña?";
+"No Need to Worry just type in your E-Mail we will get back to you." = "No hay necesidad de preocuparse simplemente escriba en su correo electrónico que volveremos a usted.";
+"A Code will be sent to your Email ID.Login with the Code and Change your Password." = "Se enviará un código a su ID de correo electrónico. Ingrese con el código y cambie su contraseña.";
+"Submit" = "Enviar";
+"Enter Your Email ID" = "Ingrese su ID de correo electrónico";
+
+// Email Screen
+"Email To :" = "Email para :";
+"Service Provider Name" = "Nombre del Proveedor";
+"Send" = "Enviar";
+
+//Report Profile
+"Report Profile" = "Reportar perfil";
+"Please write the description of your Report" = "Por favor, escriba la descripción de su Informe";
+"Report" = "Informe";
+
+
+//Select Your Choice
+"All" = "Todas";
+"Artist" = "Artista";
+"Chefs" = "chefs";
+"Clean Worker" = "Higiene de los trabajadores";
+"Gardener" = "Jardinero";
+"Decoration" = "Decoración";
+"Moving" = "Emocionante";
+"Painter" = "Pintor";
+"Plumber" = "Fontanero";
+"Towing" = "Remolque";
+"Carpenter" = "Carpintero";
+"IT" = "ESO";
+"Exterminator" = "Exterminador";
+"Electrician"= "Electricista";
+"Mechanic" = "Mecánico";
+"Health" = "Salud";
+"Beauty" = "Belleza";
+"Tutor" = "Tutor";
+"Tailor" = "Sastre";
+"Snow Shoveling" = "Palear nieve";
+"Car wash" = "Lavado de autos";
+"Photographer" = "Fotógrafo";
+"Fun & Party" = "Fiesta divertida";
+"Smithy" = "Herrería";
+"Air Cooling" = "Aire acondicionado";
+"Select Your choice" = "Seleccione su opción";
+"Bodyguards" = "guardaespaldas";
+"Consultation" = "Consulta";
+"Black Smithy" = "negro Smithy";
+
+//Edit Profile Screen
+"Edit Profile" = "Editar perfil";
+"Name" = "Nombre";
+"Age(Year)" = "Edad (año)";
+
+
+//Menu Section
+"Push Notifications" = "Notificaciones push";
+"Display My Number" = "Mostrar mi número";
+"Home" = "Casa";
+"Profile" = "Perfil";
+"Notifications" = "Notificaciones";
+"Change Password" = "Cambia la contraseña";
+"Service Tracking" = "Seguimiento de servicio";
+"Favourite List" = "Lista de favoritos";
+"Chats" = "chats";
+"Share the Application" = "Comparte la Aplicación";
+"Logout" = "Cerrar sesión";
+"Are you sure you want to logout?" = "¿Seguro que quieres salir?";
+"No" = "No";
+"Yes" = "Sí";
+
+
+//Change Password
+"Change Password" = "Cambia la contraseña";
+"Enter Old Password" = "Introduzca la contraseña antigua";
+"Enter New Password" = "Introduzca nueva contraseña";
+"Confirm New Password" = "Confirmar nueva contraseña";
+"Please enter the old password." = "Por favor, introduzca la contraseña anterior.";
+"Old Password must be of atleast 6 characters." = "Contraseña anterior debe ser de al menos 6 caracteres.";
+"Please enter the new password." = "Por favor, introduzca la nueva contraseña.";
+"New Password must be of atleast 6 characters." = "Nueva contraseña debe ser de al menos 6 caracteres.";
+"New password and old password should not be same." = "La nueva contraseña y la contraseña de edad no deben ser el mismo.";
+"Please confirm the new password." = "Por favor, confirme la nueva contraseña.";
+"New password and confirm new password should be same." = "La nueva contraseña y confirme la nueva contraseña debe ser la misma.";
+
+//Service Tracking
+"No record found." = "Ningún record fue encontrado.";
+
+//Favourites Screen
+"Favourites" = "favoritos";
+"Search Service Providers" = "Los proveedores de servicio de búsqueda";
+
+//Filter Screen
+"Filter" = "Filtrar";
+"Filter by Price" = "Clasificar por precio";
+"Filter by Distance(Kilometer)" = "Filtrar por Distancia (kilómetro)";
+"Filter by Ratings" = "Filtrar por Puntuaciones";
+"Filter by Number of Jobs" = "Filtrar por número de trabajos";
+"Availability" = "Disponibilidad";
+"Apply Filters" = "aplicar filtros";
+"Low to High" = "Bajo a alto";
+"High to Low" = "De alto a bajo";
+"10" = "10";
+"20" = "20";
+"30" = "30";
+"40" = "40";
+"50" = "50";
+"75" = "75";
+"100" = "100";
+"150" = "150";
+"250" = "250";
+"500" = "500";
+"1000" = "1000";
+"11" = "11";
+"101" = "101";
+"201" = "201";
+"300" = "300";
+"Apply Filters" = "aplicar filtros";
+
+
+
+//My Notifications Screen
+"My Notifications" = "Mis Notificaciones";
+
+//Notifications Screen
+//"Notifications" = "";
+"View Profile" = "Ver perfil";
+"Approve" = "Aprobar";
+
+//Category Name Screen
+"Science" = "Ciencia";
+
+//Give a Review
+"Give a Review" = "Dar una opinión";
+"Do you want to add this service provider as favourite ?" = "¿Quieres añadir este proveedor de servicios como favorita?";
+"Add to Favourite" = "Añadir a favoritos";
+"Upload a photo for the job" = "Sube una foto para el trabajo";
+"Send" = "Enviar";
+"Share" = "Compartir";
+"Write a Comment" = "Escribir un comentario";
+
+//My Profile
+"My Profile" = "Mi perfil" ;
+"On Going Services" = "";
+
+//Provider Current Location
+"Provider Current Location" = "Proveedor Ubicación actual";
+"Cancel Job" = "Cancelar trabajo";
+"Please Give the Reason why do you want to cancel the Job." = "Por favor, dar la razón por qué desea cancelar el trabajo.";
+
+//Map Screen
+"Map" = "";
+
+//Messages Screen
+"Messages" = "Mapa";
+
+//Chat Screen
+"Chats" = "Charla";
+"Chat" = "Charla";
+"Type message" = "tipo de mensaje";
+
+//Email View
+"Email View" = "email Ver";
+"Email From :" = "Email de :";
+"Service Provider Name" = "Nombre del Proveedor";
+"Reply" = "Respuesta";
+
+//Provider's Detail
+"Provider's Detail" = "Detalle del proveedor";
+"Photos" = "fotos";
+"Price/Hour*" = "Precio / Hora *";
+"Report Profile" = "Reportar perfil";
+"Review" = "revisión";
+"Send Hiring Request" = "Enviar solicitud de contratación";
+"Title of the services" = "Título de los servicios";
+"Description of the Job" = "Descripción del Trabajo";
+"Price to be Paid" = "Precio que se pagará";
+"Use " = "Utilice ";
+"OK" = "DE ACUERDO";
+"Are you sure you want to cancel the request?" = "¿Está seguro de que desea cancelar la solicitud?";
+"Are you sure you want to add it as favourite?" = "¿Seguro que desea añadir como favorito?";
+"Are you sure you want to remove it as favourite?" = "¿Seguro que desea eliminar como favorita?";
+
+//**************************** Service Provider Screen ******************************************//
+
+//Sign Up Screen
+"Description or type a #tag as per your skills without space" = "Descripción o escriba un #tag según sus capacidades y sin espacio";
+"Upload your Exp Doc." = "Sube tu Exp Doc.";
+"Language Known" = "lengua conocida";
+"Sample of work:" = "Muestra de los trabajos:";
+"Price / Hour" = "Precio / hora";
+"Please enter the price / hour." = "Por favor, introduzca el precio / hora.";
+"Please select the language known." = "Por favor, seleccione el idioma conocido.";
+"Cancel" = "Cancelar";
+"Take Photo" = "Tomar foto";
+"Choose Photo" = "Escoge una foto";
+"Km" = "Km";
+"Miles" = "Miles";
+"Device has no camera." = "El dispositivo tiene ninguna cámara.";
+"Next" = "Siguiente";
+"Do you want to delete this sample image?" = "¿Quieres eliminar esta imagen de la muestra?";
+
+//Job Requests Screen
+"Job Requests" = "Las solicitudes de empleo";
+
+//Client's Detail
+"Client's  Detail" = "Detalle del cliente";
+"Ratings and Reviews" = "Calificaciones y comentarios";
+"Accept" = "Aceptar";
+"Decline" = "Disminución";
+"Job Price" = "Precio de empleo";
+"Job Title" = "Título profesional";
+"Description" = "Descripción";
+"Are you sure you want to accept the job request?" = "¿Está seguro de que desea aceptar la solicitud de trabajo?";
+"Are you sure you want to decline the job request?" = "¿Está seguro de que desea rechazar la solicitud de empleo?";
+
+
+//Select your Choice
+"Status" = "Estado";
+"Job Request" = "Solicitud de trabajo";
+"Subscribe" = "Suscribir";
+"Available" = "Disponible";
+"Busy" = "Ocupado";
+"Search" = "Buscar";
+"Enable Location Service" = "Habilitar servicio de ubicación";
+"You have to enable the Location Service to use this App. To enable, please go to Settings->Privacy->Location Services" = "Tienes que habilitar el Servicio de ubicación para usar esta aplicación. Para activarlo, vaya a Configuración-> Privacidad-> Servicios de ubicación";
+"Have Accepted your request for Hiring." = "Han aceptado su solicitud de contratación.";
+"Have Sent you request for Hiring." = "Le han enviado solicitud de contratación.";
+
+
+
+"Cancel Job Request" = "Cancelar solicitud de trabajo";
+"On Going Job" = "En el trabajo que va";
+"Send Hiring Request" = "Enviar solicitud de contratación";
+
+"View" = "Ver";
+"Cancel" = "Cancelar";
+"has sent a message to you." = "Te ha enviado un mensaje.";
+"Contact Number" = "Número de contacto";
+"Price/Hour" = "Precio ($) / Hora";
+"Please select the category." = "Seleccione la categoría.";
+
+//"Email" = "Email";
+"Choose Your Subscription Plan" = "Elija su plan de suscripción";
+"Success." = "Éxito.";
+"Client Current Location" = "Ubicación actual del cliente";
+"Mark as Completed" = "Marcar como terminado";
+"Alert" = "Alerta";
+"Please enter message." = "Introduzca el mensaje.";
+"Please enter report description." = "Introduzca la descripción del informe.";
+
+"Please Select your Status" = "Seleccione su estado";
+"Price must be greater than zero." = "El precio debe ser mayor que cero.";
+
+
+// memory leaks
+"60" = "60";
+"User unblocked successfully." = "Usuario desbloqueado correctamente.";
+
+
+"You can not send message to blocked user" = "No puede enviar mensajes a usuarios bloqueados.";
+"Message deleted successfully." = "Mensaje eliminado correctamente.";
+"Email deleted successfully." = "Correo electrónico eliminado correctamente.";
+"Characters" = "Caracteres";
+"Block List" = "Lista de bloqueos";
+"Last seen:" = "Ultima vez visto:";
+"Google map" = "mapa de Google";
+"Apple map" = "Mapa de Apple";
+"Are you sure you want to approve the job?" = "¿Estás seguro de que quieres aprobar el trabajo?";
+"￼Don’t Approve" = "No aprobar";
+
+"View later" = "Ver más tarde";
+"View profile" = "Ver perfil";
+"Have cancelled the job." = "Han cancelado el trabajo.";
+"Congratulations" = "Felicitaciones";
+
+"Your subscription is activated for one month" = "Su suscripción se activa durante un mes";
+"Your subscription is activated for three months" = "Su suscripción se activa durante tres meses";
+"Your subscription is activated for six months" = "Su suscripción se activa durante seis meses";
+"Your subscription is activated for one year" ="Su suscripción se activa por un año";
+
+"Open With" = "Abrir con";
+"Coming soon." = "Próximamente.";
+"Multiple Jobs" = "Trabajos múltiples";
+//"unapproved" = "Enviar solicitud de contratación";
+
+"canceled" = "Cancelado";
+"Job already canceled." = "Trabajo ya cancelado";
+"Location" = "Ubicación";
+
+
+

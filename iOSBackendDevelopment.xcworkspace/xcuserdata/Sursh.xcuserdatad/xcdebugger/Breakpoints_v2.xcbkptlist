@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/View Controllers/Service Provider Side/Job Request/JobRequestVC.m"
+            timestampString = "521641216.812932"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "-requestDictForJobRequestList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSBackendDevelopment/ZHCMessageViewController/Chat/CustomChatVC.m"
+            timestampString = "521641309.233582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1219"
+            endingLineNumber = "1219"
+            landmarkName = "-callAPIToUpdateUserStatus"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CustomChatVC callAPIToUpdateUserStatus]"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sursh/Desktop/Flinkit@12th/iOSBackendDevelopment/ZHCMessageViewController/Chat/CustomChatVC.m"
+                  timestampString = "521644658.73313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1219"
+                  endingLineNumber = "1219"
+                  offsetFromSymbolStart = "397">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[CustomChatVC callAPIToUpdateUserStatus]_block_invoke"
+                  moduleName = "Flink It"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sursh/Desktop/Flinkit@12th/iOSBackendDevelopment/ZHCMessageViewController/Chat/CustomChatVC.m"
+                  timestampString = "521644658.735763"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1220"
+                  endingLineNumber = "1220"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

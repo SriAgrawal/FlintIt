@@ -1,0 +1,85 @@
+dependencies: \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/TableViewWithMultipleSelection/TableViewWithMultipleSelection.m \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/TableViewWithMultipleSelection/TableViewWithMultipleSelection.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/AppDelegate\ Class/AppDelegate.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKProfile.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKUtility.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKSettings.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKConstants.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKButton.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKMacros.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKCopying.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/Fabric.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/Fabric.framework/Headers/FABAttributes.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/Fabric.framework/Headers/Fabric.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRSessionStore.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRSession.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRGuestSession.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRConstants.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRAuthSession.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRAuthConfig.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRAPIErrorCode.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TWTRDefines.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterCore.framework/Headers/TwitterCore.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRUser.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTweetView.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTweetTableViewCell.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTweetDetailViewController.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTweet.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTimelineViewController.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTROAuthSigning.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRNotificationConstants.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRLogInButton.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRJSONConvertible.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRComposerViewController.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRComposerTheme.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRComposer.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTimelineType.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRTimelineDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRCardConfiguration.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TWTRAPIClient.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/Twitter.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Frameworks/TwitterKit.framework/Headers/TwitterKit.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Build/Intermediates/iOSBackendDevelopment.build/Debug-iphoneos/iOSBackendDevelopment.build/DerivedSources/Flink_It-Swift.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/Location\ Manager/LocationTracker.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/Location\ Manager/LocationShareModel.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/Location\ Manager/BackgroundTaskManager.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/Supportng\ Classes/Location\ Manager/FTLocationManager.h

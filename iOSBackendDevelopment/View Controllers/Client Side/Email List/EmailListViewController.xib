@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailListViewController">
+            <connections>
+                <outlet property="emailListTableView" destination="inG-iD-r5f" id="6x7-Vl-XhP"/>
+                <outlet property="lblNavigationTitle" destination="L2k-5S-U94" id="C95-OB-fDX"/>
+                <outlet property="menuBtnProperty" destination="6wh-uw-uWw" id="2w5-4b-9aj"/>
+                <outlet property="socialButton" destination="Xcn-x3-4EP" id="Fw0-Np-6hg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qc8-0j-rVL">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2k-5S-U94">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="fvX-St-Fbj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="25"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wh-uw-uWw">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="onh-XZ-wSu"/>
+                                <constraint firstAttribute="height" constant="64" id="qpW-qi-vQH"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="20" maxX="20" maxY="0.0"/>
+                            <state key="normal" image="menu_icon">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="menuButton:" destination="-1" eventType="touchUpInside" id="pyU-RL-Tvq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcn-x3-4EP">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="3ha-91-GbK"/>
+                                <constraint firstAttribute="height" constant="64" id="bVa-QN-ObD"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="global_icon">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="socialButton:" destination="-1" eventType="touchUpInside" id="zkr-KO-6gb"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Xcn-x3-4EP" firstAttribute="top" secondItem="qc8-0j-rVL" secondAttribute="top" id="1i5-kv-pgD"/>
+                        <constraint firstItem="L2k-5S-U94" firstAttribute="leading" secondItem="6wh-uw-uWw" secondAttribute="trailing" constant="2" id="BLW-9w-bfm"/>
+                        <constraint firstAttribute="bottom" secondItem="L2k-5S-U94" secondAttribute="bottom" constant="3" id="FbE-gP-iXo"/>
+                        <constraint firstAttribute="height" constant="64" id="JZM-Pl-AOh"/>
+                        <constraint firstItem="Xcn-x3-4EP" firstAttribute="leading" secondItem="L2k-5S-U94" secondAttribute="trailing" constant="2" id="Qgv-ba-W3S"/>
+                        <constraint firstItem="L2k-5S-U94" firstAttribute="centerX" secondItem="qc8-0j-rVL" secondAttribute="centerX" id="YJT-xw-DFc"/>
+                        <constraint firstItem="6wh-uw-uWw" firstAttribute="leading" secondItem="qc8-0j-rVL" secondAttribute="leading" id="dX6-7V-BYc"/>
+                        <constraint firstItem="6wh-uw-uWw" firstAttribute="top" secondItem="qc8-0j-rVL" secondAttribute="top" id="o2P-42-N5V"/>
+                        <constraint firstAttribute="trailing" secondItem="Xcn-x3-4EP" secondAttribute="trailing" constant="1" id="zPv-bY-hQ3"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="OS7-BS-hXh"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="inG-iD-r5f">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="17Q-iq-4r4"/>
+                        <outlet property="delegate" destination="-1" id="xpA-Ee-Qbr"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qc8-0j-rVL" secondAttribute="trailing" id="2P9-KV-MFD"/>
+                <constraint firstAttribute="bottom" secondItem="inG-iD-r5f" secondAttribute="bottom" id="7DG-dE-4vu"/>
+                <constraint firstItem="OS7-BS-hXh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A7w-2c-yW2"/>
+                <constraint firstAttribute="trailing" secondItem="inG-iD-r5f" secondAttribute="trailing" constant="8" id="CjA-sD-iH3"/>
+                <constraint firstAttribute="trailing" secondItem="OS7-BS-hXh" secondAttribute="trailing" id="Mcr-K8-6aS"/>
+                <constraint firstItem="inG-iD-r5f" firstAttribute="top" secondItem="qc8-0j-rVL" secondAttribute="bottom" constant="8" id="O7G-TV-MqZ"/>
+                <constraint firstItem="OS7-BS-hXh" firstAttribute="top" secondItem="qc8-0j-rVL" secondAttribute="bottom" id="aNw-hG-Zjl"/>
+                <constraint firstItem="qc8-0j-rVL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="c31-p6-DU1"/>
+                <constraint firstItem="inG-iD-r5f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="f2x-kW-Op6"/>
+                <constraint firstAttribute="bottom" secondItem="OS7-BS-hXh" secondAttribute="bottom" id="o5n-w7-1kf"/>
+                <constraint firstItem="qc8-0j-rVL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rSb-WW-PGk"/>
+            </constraints>
+            <point key="canvasLocation" x="-34.5" y="35.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="320" height="480"/>
+        <image name="global_icon" width="30" height="30"/>
+        <image name="menu_icon" width="30" height="30"/>
+    </resources>
+</document>

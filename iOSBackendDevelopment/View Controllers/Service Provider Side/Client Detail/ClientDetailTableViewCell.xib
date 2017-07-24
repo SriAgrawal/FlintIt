@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="111" id="9az-hd-7fV" customClass="ClientDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9az-hd-7fV" id="vKT-hr-ugo">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-SX-xSI">
+                        <rect key="frame" x="3" y="0.0" width="369" height="98"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aBX-Cm-Wmx">
+                                <rect key="frame" x="8" y="14" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Ses-VM-JAr"/>
+                                    <constraint firstAttribute="width" constant="70" id="pNR-Ze-bdb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mick" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="6Yt-0b-inc">
+                                <rect key="frame" x="86" y="8" width="280" height="16"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="q0v-mH-z9f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 Years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="aK3-gg-lPr">
+                                <rect key="frame" x="86" y="29" width="126" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="U0k-E5-MBq"/>
+                                    <constraint firstAttribute="height" constant="20" id="YDc-j9-KJG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11, SAM Rd, Newyork" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="zot-iz-BOq">
+                                <rect key="frame" x="86" y="73" width="280" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="DSs-HX-DNb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpX-oF-DO4">
+                                <rect key="frame" x="86" y="53" width="280" height="16"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="zur-J7-Sr0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="70" maxY="0.0"/>
+                                <state key="normal" title="7878899888" image="phoneNumber">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rk-mX-Gn7" customClass="DXStarRatingView">
+                                <rect key="frame" x="259" y="27" width="102" height="23"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="5jj-3L-h11"/>
+                                    <constraint firstAttribute="width" constant="102" id="vLo-WK-zTP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6Yt-0b-inc" secondAttribute="trailing" constant="3" id="1gR-8v-B5p"/>
+                            <constraint firstItem="aK3-gg-lPr" firstAttribute="leading" secondItem="aBX-Cm-Wmx" secondAttribute="trailing" constant="8" id="4b9-JM-PX2"/>
+                            <constraint firstItem="aK3-gg-lPr" firstAttribute="top" secondItem="6Yt-0b-inc" secondAttribute="bottom" constant="5" id="G0e-7G-6Gi"/>
+                            <constraint firstItem="6Yt-0b-inc" firstAttribute="leading" secondItem="aBX-Cm-Wmx" secondAttribute="trailing" constant="8" id="LkJ-d0-r28"/>
+                            <constraint firstItem="6Yt-0b-inc" firstAttribute="top" secondItem="dkV-SX-xSI" secondAttribute="top" constant="8" id="dfu-YD-auq"/>
+                            <constraint firstItem="zot-iz-BOq" firstAttribute="top" secondItem="hpX-oF-DO4" secondAttribute="bottom" constant="4" id="eCp-ku-OsG"/>
+                            <constraint firstItem="aBX-Cm-Wmx" firstAttribute="leading" secondItem="dkV-SX-xSI" secondAttribute="leading" constant="8" id="fnK-Ga-PN4"/>
+                            <constraint firstItem="aBX-Cm-Wmx" firstAttribute="top" secondItem="dkV-SX-xSI" secondAttribute="top" constant="14" id="g1E-Zb-Dci"/>
+                            <constraint firstItem="hpX-oF-DO4" firstAttribute="leading" secondItem="aBX-Cm-Wmx" secondAttribute="trailing" constant="8" id="h41-mx-pHu"/>
+                            <constraint firstItem="hpX-oF-DO4" firstAttribute="top" secondItem="aK3-gg-lPr" secondAttribute="bottom" constant="4" id="h9Q-Mu-i3j"/>
+                            <constraint firstAttribute="trailing" secondItem="zot-iz-BOq" secondAttribute="trailing" constant="3" id="l4x-7C-pp8"/>
+                            <constraint firstAttribute="trailing" secondItem="hpX-oF-DO4" secondAttribute="trailing" constant="3" id="tTZ-cE-VtQ"/>
+                            <constraint firstItem="zot-iz-BOq" firstAttribute="leading" secondItem="aBX-Cm-Wmx" secondAttribute="trailing" constant="8" id="vHT-GU-wRi"/>
+                            <constraint firstAttribute="trailing" secondItem="4rk-mX-Gn7" secondAttribute="trailing" constant="8" id="xuU-60-fiV"/>
+                            <constraint firstItem="4rk-mX-Gn7" firstAttribute="top" secondItem="dkV-SX-xSI" secondAttribute="top" constant="27" id="yVK-ZJ-hNh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dkV-SX-xSI" secondAttribute="trailing" constant="3" id="FBD-zk-JPN"/>
+                    <constraint firstItem="dkV-SX-xSI" firstAttribute="top" secondItem="vKT-hr-ugo" secondAttribute="top" id="RkF-de-ph1"/>
+                    <constraint firstAttribute="bottom" secondItem="dkV-SX-xSI" secondAttribute="bottom" constant="1" id="WYr-Gf-Fg4"/>
+                    <constraint firstItem="dkV-SX-xSI" firstAttribute="leading" secondItem="vKT-hr-ugo" secondAttribute="leading" constant="3" id="cr0-2V-Ek3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="clientAddress" destination="zot-iz-BOq" id="dLG-08-R4X"/>
+                <outlet property="clientAge" destination="aK3-gg-lPr" id="Pe8-EG-PVI"/>
+                <outlet property="clientContactNumber" destination="hpX-oF-DO4" id="YoD-uc-Qys"/>
+                <outlet property="clientImage" destination="aBX-Cm-Wmx" id="DhJ-jE-Vlw"/>
+                <outlet property="clientName" destination="6Yt-0b-inc" id="M3O-aa-vOH"/>
+                <outlet property="ratingView" destination="4rk-mX-Gn7" id="2UC-Jw-GEc"/>
+            </connections>
+            <point key="canvasLocation" x="7.5" y="-69"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="phoneNumber" width="20" height="20"/>
+    </resources>
+</document>

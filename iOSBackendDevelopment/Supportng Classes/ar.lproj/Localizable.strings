@@ -1,0 +1,429 @@
+/* 
+  Localizable.strings
+  iOSBackendDevelopment
+
+  Created by Abhishek Agarwal on 07/04/16.
+  Copyright © 2016 Mobiloitte. All rights reserved.
+*/
+//****************************************** Client Side Screen ************************************************//
+"Please give some reason." = "يرجى إعطاء سبب.";
+
+//Select Language Screen
+"Login As Client" = "تسجيل الدخول كعميل";
+"Sign Up As Client" = "اشترك كعميل";
+"Login As Service Provider" = "تسجيل الدخول ومقدم الخدمة";
+"Sign Up As Service Provider" = "اشترك ومقدم الخدمة";
+"OR" = "أو";
+"Setup" = "اقامة";
+"Select Language" = "اختر اللغة";
+"English" = "الإنجليزية";
+"Spanish" = "الأسبانية";
+"Arabic" = "العربية";
+
+//Login Screen
+"Select Your Choice" = "حدد اختيارك";
+"Log In" = "تسجيل الدخول";
+"Remember me" = "تذكرني";
+"Forgot password?" = "نسيت كلمة المرور؟";
+"If YOU ARE NEW USER Sign Up?" = "هل انت مستخدم جديد؟ سجل معنا";
+"EMAIL" = "البريد الالكتروني";
+"PASSWORD" = "كلمة المرور";
+"Please enter username or password." = "قم بإدخال اسم المستخدم او كلمة المرور";
+"Please enter the email address." = "من فضلك ادخل البريد الالكتروني";
+"Please enter  a valid email address." = "من فضلك ادخل بريد الكتروني صحيح";
+"Please enter the password." = "من فضلك ادخل كلمة المرور";
+"Password must be of atleast 6 characters." = "كلمة المرور يجب ان تكون على الاقل ستة ارقام او احرف";
+"Invalid Username or Password."= "البريد الالكتروني او كلمة المرور غير صحيح";
+"Login and get your job done with a single tap." = "قم بتسجيل الدخول وانهي عملك بنقرة زر";
+"Are you sure you want to enable your GPS location?" = "هل انت متأكد من انك تريد تفعيل خدمة التحديد العالمي GPS؟";
+"Error in login to facebook." = "خطأ في تسجيل الدخول إلى الفيسبوك.";
+"Invalid email or Password." = "البريد الإلكتروني أو كلمة السر خاطئة.";
+"Please enter email or password." = "يرجى إدخال البريد الإلكتروني أو كلمة المرور.";
+"Please enter email in english." = "يرجى إدخال البريد الإلكتروني باللغة الإنجليزية.";
+"Please enter phone no in english." = "يرجى إدخال رقم الهاتف في اللغة الإنجليزية.
+";
+
+
+//Sign Up Screen
+//"Sign Up and get the right person in the right time for the right job." = "سجل معنا واحصل على الرجل المناسب في الوقت المناسب في العمل المناسب";
+"Sign Up and get the right person in the right time for the right job." = "سجل معنا وتحصل على الشخص المناسب في الوقت المناسب في العمل المناسب";
+
+"Already have an account? Login" = "هل لديك حساب من قبل؟ تسجيل دخول";
+"BY CREATING AN ACCOUNT, YOU AGREE TO Flink It TERMS OF SERVICES." = "من خلال تسجيلك انت توافق على Flink It TERMS OF SERVICES.";
+"Username" = "الاسم المستخدم";
+"Email Address" = "البريد الالكتروني";
+"Password" = "كلمة المرور";
+"Confirm Password" = "إعادة ادخال كلمة المرور";
+"Age" = "العمر";
+"State ,Country(Autofill By Location)" = "الولاية او المنطقه ";
+"Address" = "العنوان";
+"Contact No." = "رقم الهاتف المحمول";
+"Male" = "ذكر";
+"Female" = "انثى";
+"Gender" = "الجنس";
+"Sign Up" = "تسجيل";
+"Done" = "انتهى";
+"Distance Preference" = "المسافة";
+"Please select the user image." = "من فضلك اختر صورة المستخدم";
+"Please enter the username." = "من فضلك ادخل اسم المستخدم ";
+"Please enter the valid username." = "من فضلك ادخل اسم مستخدم صحيح";
+"Please enter the email address." = "من فضلك ادخل البريد الالكتروني";
+"Please enter the valid email address." = "من فضلك ادخل بريد الكتروني صحيح";
+//"Please enter the password." = "من فضلك ادخل كلمة المرور";
+"Password must be of atleast 6 characters." = " يجب ان تكون كلمة المرور ستة ارقام او احرف كحد ادنى";
+"Please enter the confirm password." = "من فضلك ادخل كلمة المرور مرة اخرى";
+"Password and confirm password should be same." = "يجب تطابق كلمات المرور ";
+"Please select the age." = "من فضلك اختر العمر";
+"Please enter the state." = "من فضلك ادخل الولاية";
+"Please enter the address." = "من فضلك ادخل العنوان";
+"Please enter the contact number." = "من فضلك ادخل رقم الهاتف المحمول";
+"Contact number must be of 10 characters." = " يجب ان يكون رقم الهاتف المحمول عشرة ارقام";
+"Please select the distance preference." = "من فضلك اختر المسافة ";
+"Error!" = "خطأ";
+"TERMS OF SERVICES" = "حيث الخدمات.";
+//"Category" = "فئة";
+"Email" = "البريد الإلكتروني";
+"Please enter the location in full format." = "الرجاء إدخال الموقع في شكل كامل.";
+"Category" = "نوع العمل";
+
+//Mobile Registration Screen
+"Enter OTP sent to your Mobile Device." = "ادخل رقم التفعيل المرسل الى هاتفك المحمول";
+"Mobile Registration" = "تسجيل الهاتف المحمول";
+"Confirm" = "تأكيد";
+"Re-send OTP"= "اعادة ارسال رقم التفعيل";
+"Example 2356" = "مثال ٢٣٥٦";
+"Please enter the OTP." = "من فضلك ادخل رقم التفعيل";
+
+//Terms and Conditions
+"Terms and Conditions" = "الانظمة والقوانين";
+
+//Forgot Password
+"Forgot Password" = "نسيت كلمة المرور؟";
+"Forgot your Password?" = "هل نسيت كلمة المرور؟";
+"No Need to Worry just type in your E-Mail we will get back to you." = "لاتقلق، ادخل بريدك الالكتروني وسوف نقوم بالرد عليك قريباً";
+"A Code will be sent to your Email ID.Login with the Code and Change your Password." = "سوف نقوم بارسال رمز التفعيل الى بريدك الالكتروني، سجل دخولك برمز التفعيل و قم بتغيير كلمة المرور الخاصة بك";
+"Submit" = "ارسال";
+"Enter Your Email ID" = "ادخل بريدك الالكتروني";
+
+// Email Screen
+//"Email To :" = "ارسال بريد الكتروني الى:";
+"Service Provider Name" = "اسم مقدم خدمة";
+"Send" = "ارسال";
+"Email To :" = "ارسال بريد الكتروني";
+
+//Report Profile
+"Report Profile" = "ابلاغ عن الملف";
+"Please write the description of your Report" = "من فضلك اكتب وصف عن بلاغك";
+"Report" = "ابلاغ ";
+
+
+//Select Your Choice
+"All" = "الكل";
+"Artist" = "فنان";
+"Chefs" = "طباخ";
+"Clean Worker" = "عامل نظافة";
+//"Gardener" = "البستاني";
+//"Decoration" = "الديكور";
+//"Moving" = "النقل";
+//"Painter" = "الصباغ";
+//"Plumber" = "السباكه";
+"Towing" = "نقل مركبات";
+"Carpenter" = "بساط";
+"IT" = "تقنية";
+"Exterminator" = "مكافح حشرات";
+"Electrician"= "كهربائي";
+"Mechanic" = "ميكانيكي";
+//"Health" = "الصحة";
+"Beauty" = "تجميل";
+"Tutor" = "مٌعلم خصوصي";
+"Tailor" = "خياطة";
+"Snow Shoveling" = "حفار";
+"Car wash" = "تنظيف مركبات";
+"Photographer" = "تصوير";
+"Fun & Party" = "تنسيق حفلات";
+"Smithy" = "دكان الحداد";
+//"Air Cooling" = "التدفئة والتبريد";
+"Select Your choice" = "قم بالاختيار";
+"Bodyguards" = "حراس الامن";
+//"Consultation" = "تشاور";
+"Black Smithy" = "حداد";
+"Consultation" = "استشارات";
+"Gardener" = "بستاني";
+"Decoration" = "ديكور";
+"Moving" = "نقل";
+"Painter" = "صباغ";
+"Plumber" = "سباكه";
+"Health" = "صحه";
+"Air Cooling" = "تدفئه وتبريد";
+
+
+//Edit Profile Screen
+"Edit Profile" = "تعديل الملف";
+"Name" = "اسم";
+"Age(Year)" = "(العمر (سنة";
+
+
+//Menu Section
+"Push Notifications" = "التنبيهات";
+"Display My Number" = "اعرض رقم هاتفي المحمول";
+"Home" = "الرئيسية";
+"Profile" = "الملف";
+"Notifications" = "التنبيهات";
+"Change Password" = "تغيير كلمة المرور";
+"Service Tracking" = "تتبع المهام";
+"Favourite List" = "المفضلة";
+"Chats" = "المحادثات";
+"Share the Application" = "مشاركة التطبيق";
+"Logout" = "تسجيل الخروج";
+"Are you sure you want to logout?" = "هل انت متأكد من انك تريد تسجيل الخروج";
+"No" = "لا";
+"Yes" = "نعم";
+
+
+//Change Password
+//"Change Password" = "تغيير كلمة المرور";
+"Enter Old Password" = "ادخل كلمة المرور الحالية";
+"Enter New Password" = "ادخل كلمة المرور الجديدة";
+"Confirm New Password" = "تأكيد كلمة المرورالجديدة";
+"Please enter the old password." = "ادخل كلمة المرور الحالية";
+"Old Password must be of atleast 6 characters." = " يجب ان تكون كلمة المرور القديمة ستة ارقام او احرف كحد أدنى";
+"Please enter the new password." = "ادخل كلمة المرور الجديدة";
+"New Password must be of atleast 6 characters." = "يجب ان تكون كلمة المرور الجديدة  ستة ارقام او احرف كحد ادنى";
+"New password and old password should not be same." = "لا يجب ان تكون كلمة المرور الجديدة والقديمة متطابقة";
+"Please confirm the new password." = "من فضلك تحقق من كلمة المرور";
+"New password and confirm new password should be same." = "يجب ان تتطابق خانتي كلمة المرور";
+
+//Service Tracking
+"No record found." = "لم نجد اي ملف بهذا الاسم";
+
+//Favourites Screen
+"Favourites" = "المفضلة";
+"Search Service Providers" = "البحث عن مقدم الخدمة";
+
+//Filter Screen
+"Filter" = "فلتر";
+"Filter by Price" = "التحديد بالمبلغ";
+"Filter by Distance(Kilometer)" = "التحديد بالمسافة ";
+"Filter by Ratings" = "التحديد بالتقييم";
+"Filter by Number of Jobs" = "التحديد بعدد الاعمال المنجزة";
+"Availability" = "متاح ";
+"Apply Filters" = "البحث بالفلتر";
+"Low to High" = "من الاقل الى الاعلى";
+"High to Low" = "من الاعلى الى الاقل";
+"10" = "10";
+"20" = "20";
+"30" = "30";
+"40" = "40";
+"50" = "50";
+"75" = "75";
+"100" = "100";
+"150" = "150";
+"250" = "250";
+"500" = "500";
+"1000" = "1000";
+"11" = "11";
+"101" = "101";
+"201" = "201";
+"300" = "300";
+
+
+
+//My Notifications Screen
+"My Notifications" = "تنبيهاتي";
+
+//Notifications Screen
+//"Notifications" = "التنبيهات";
+"View Profile" = "استعراض الملف";
+//"Approve" = "قبول";
+//"Approve" = "تم انجاز العمل";
+//"Approve" = "نعم";
+//"Approve" = "نعم";
+//"Approve" = "موقع مقدم الخدمه";
+
+"Approve" = "الموافقه على اتمام العمل";
+
+//Category Name Screen
+"Science" = "العلوم";
+
+//Give a Review
+"Give a Review" = "اعط تقييمك";
+"Do you want to add this service provider as favourite ?" = "هل تريد اضافة مقدم الخدمة الى المفضلة؟";
+"Add to Favourite" = "اضافة الى المفضلة";
+"Upload a photo for the job" = "اضافة صورة للخدمة";
+"Send" = "ارسل";
+"Share" = "مشاركة";
+"Write a Comment" = "اكتب تعليق";
+
+//My Profile
+"My Profile" = "استعراض ملفي" ;
+"On Going Services" = "خدمات تحت الانجاز";
+
+//Provider Current Location
+"Provider Current Location" = "موقع مقدم الخدمة";
+"Cancel Job" = "إلغاء العمل";
+"Please Give the Reason why do you want to cancel the Job." = "من فضلك اذكر سبب إلغاء الخدمة";
+
+//Map Screen
+"Map" = "الخريطة";
+
+//Messages Screen
+//"Messages" = "الرسائل";
+"Messages" = "المحادثات";
+
+//Chat Screen
+"Chat" = "المحادثة";
+"Type message" = "اكتب رسالة ";
+
+//Email View
+"Email View" = "استعراض البريد الالكتروني";
+"Email From :" = "بريد الكتروني من:";
+"Service Provider Name" = "اسم مقدم الخدمة";
+"Reply" = "رد على";
+
+//Provider's Detail
+"Provider's Detail" = "تفاصيل مقدم الخدمة";
+"Photos" = "صور";
+"Price/Hour*" = "المبلغ بالساعة الواحدة";
+"Report Profile" = "ابلاغ عن الملف";
+"Review" = "تقييم";
+//"Send Hiring Request" = "ارسال طلب الخدمة";
+"Title of the services" = "عنوان الخدمة";
+"Description of the Job" = "وصف الخدمة";
+"Price to be Paid" = "المبلغ الذي تريد دفعه";
+"Use " = " استخدم ";
+//"OK" = "حسنا";
+"Are you sure you want to cancel the request?" = "هل انت متأكد من انك تريد الغاء طلب الخدمة";
+"Are you sure you want to add it as favourite?" = "هل انت متأكد من انك تريد اضافته الى المفضلة؟";
+"Are you sure you want to remove it as favourite?" = "هل انت متأكد من انك تريد حذفه من المفضلة؟";
+"Send Hiring Request" = "ارسال طلب";
+"OK" = "ارسال";
+
+//**************************** Service Provider Screen ******************************************//
+
+//Sign Up Screen
+"Description or type a #tag as per your skills without space" = "اعط وصف لخدمتك او من خلال ادراج علامة #هاشتاق للخدمة الواحدة بدون مسافة";
+"Upload your Exp Doc." = "تحميل المستندات";
+"Language Known" = "اللغة المعروفة";
+"Sample of work:" = "عينة من أعمال:";
+//"Price/Hour" = "السعر / ساعة";
+"Price/Hour" = "السعر ($) / ساعة";
+"Please enter the price / hour." = "الرجاء إدخال سعر / ساعة.";
+"Please select the language known." = "يرجى اختيار اللغة المعروفة.";
+"Cancel" = "إلغاء";
+"Take Photo" = "تصوير";
+"Choose Photo" = "اختيار صور";
+"Km" = "كم";
+"Miles" = "اميال";
+"Device has no camera." = "الجهاز ليس لديه كاميرا.";
+"Next" = "التالى";
+"Do you want to delete this sample image?" = "هل تريد حذف هذه الصورة عينة؟";
+
+//Job Requests Screen
+"Job Requests" = "طلبات العمل";
+
+//Client's Detail
+"Client's  Detail" = "تفاصيل العميل";
+"Ratings and Reviews" = "التقييمات والمراجعات";
+"Accept" = "قبول";
+"Decline" = "رفض";
+//"Job Price" = "الأسعار وظيفة";
+"Job Price" = "سعر العمل";
+
+"Job Title" = "المسمى الوظيفي";
+"Description" = "وصف";
+//"Are you sure you want to accept the job request?" = "هل أنت متأكد أنك تريد قبول طلب وظيفة؟";
+"Are you sure you want to decline the job request?" = "هل أنت متأكد أنك تريد رفض طلب وظيفة؟";
+"Are you sure you want to accept the job request?" = "هل أنت متأكد من أنك تريد قبول العمل";
+
+
+//Select your Choice
+"Status" = "الحالة";
+"Job Request" = "طلب وظيفة";
+"Subscribe" = "الاشتراك";
+"Available" = "متاح";
+"Busy" = "مشغول";
+"Search" = "بحث";
+"Enable Location Service" = "تمكين الموقع خدمة";
+"You have to enable the Location Service to use this App. To enable, please go to Settings->Privacy->Location Services" = "لديك لتمكين خدمة الموقع لاستخدام هذه التطبيقات. لتمكين، يرجى الذهاب إلى إعدادات-> في الخصوصية> خدمات الموقع";
+"Have Accepted your request for Hiring." = "وقد قبلت طلبك للتوظيف.";
+"Have Sent you request for Hiring." = "قمنا بإرسال طلب للتوظيف.";
+
+
+"Cancel Job Request" = "إلغاء طلب الوظيفة";
+//"On Going Job" = "على الذهاب الوظيفة";
+//"Send Hiring Request" = "إرسال التعاقد مع طلب";
+//"On Going Job" = "العملالجاري";
+
+"On Going Job" = "العمل الجاري";
+
+
+"View" = "رأي";
+"Cancel" = "إلغاء";
+"has sent a message to you." = "بعث رسالة لك.";
+"Contact Number" = "رقم الاتصال";
+"Price/Hour" = "السعر / ساعة";
+"Please select the category." = "الرجاء تحديد الفئة.";
+
+
+//"Email" = "البريد الإلكتروني";
+"Choose Your Subscription Plan" = "اختيار خطة اشتراكك";
+"Success." = "تم بنجاح";
+//"Client Current Location" = "العميل الموقع الحالي";
+//"Mark as Completed" = "إجعلها المنجزة";
+"Alert" = "إنذار";
+"Please enter message." = "يرجى كتابة رسالة.";
+"Please enter report description." = "الرجاء إدخال وصف التقرير.";
+
+"Please Select your Status" = "الرجاء اختيار الحالة الخاصة بك";
+"Price must be greater than zero." = "يجب أن يكون السعر أكبر من الصفر.";
+"Mark as Completed" = "تم إنجاز العمل";
+"Client Current Location" = "موقع العميل";
+
+
+// memory leaks
+"60" = "60";
+"User unblocked successfully." = "العضو يفرج بنجاح.";
+
+"You can not send message to blocked user" = "لا يمكنك إرسال رسالة إلى المستخدم المحظور.";
+"Message deleted successfully." = "رسالة حذفها بنجاح.";
+"Email deleted successfully." = "البريد الإلكتروني حذف بنجاح.";
+"Characters" = "الشخصيات";
+//"Block List" = "قائمة كتلة";
+"Last seen:" = "اخر ظهور:";
+"Google map" = "خرائط جوجل";
+"Apple map" = "التفاح";
+"Are you sure you want to approve the job?" = "هل انت متأكد من انك تريد الموافقه على إتمام￼￼￼￼￼ العمل؟";
+//"￼Don’t Approve" = "نعم";
+"￼Don’t Approve" = "لا";
+
+"Block List" = "قائمة الحظر";
+
+
+//"View later" = "رؤيته صفحته￼￼￼￼￼ الشخصيه";
+//"View profile" = "رؤيتها  حقا";
+
+"View later" = "رؤيتها لاحقاً";
+"View profile" = "رؤية صفحته الشخصيه";
+
+"Have cancelled the job." = "وقد ألغى هذا المنصب.";
+"Congratulations" = "تهانينا";
+
+
+"Your subscription is activated for one month" = "يتم تنشيط اشتراكك لمدة شهر واحد";
+"Your subscription is activated for three months" = "يتم تنشيط اشتراكك لمدة ثلاثة أشهر";
+"Your subscription is activated for six months" = "يتم تنشيط اشتراكك لمدة ستة أشهر";
+"Your subscription is activated for one year" ="يتم تنشيط اشتراكك لمدة سنة واحدة";
+
+"Open With" = "مفتوحة مع";
+"Coming soon." = "قريبا.";
+"Multiple Jobs" = "متعدد الاعمال";
+//"unapproved" = "ارسال طلب";
+
+
+"canceled" = "ألغيت";
+"Job already canceled." = "مهمة تم إلغاؤه بالفعل";
+"Location" = "موقعك";
+
+
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="ClientMailRow">
+            <rect key="frame" x="0.0" y="0.0" width="587" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="587" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2y-Ic-RDG">
+                        <rect key="frame" x="0.0" y="0.0" width="587" height="98"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e2-Mu-DtB">
+                                <rect key="frame" x="86" y="13" width="493" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="Rmn-oN-JiT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_img5.png" translatesAutoresizingMaskIntoConstraints="NO" id="G90-Me-c5a">
+                                <rect key="frame" x="8" y="5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="3yg-py-0I8"/>
+                                    <constraint firstAttribute="width" constant="70" id="UPo-5W-1xF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2e2-Mu-DtB" secondAttribute="bottom" constant="25" id="BdQ-F2-ocf"/>
+                            <constraint firstItem="G90-Me-c5a" firstAttribute="top" secondItem="d2y-Ic-RDG" secondAttribute="top" constant="5" id="DpQ-Uw-yzD"/>
+                            <constraint firstItem="2e2-Mu-DtB" firstAttribute="leading" secondItem="G90-Me-c5a" secondAttribute="trailing" constant="8" id="GrQ-aI-84H"/>
+                            <constraint firstItem="G90-Me-c5a" firstAttribute="top" secondItem="d2y-Ic-RDG" secondAttribute="top" constant="12" id="KzB-wf-DlS"/>
+                            <constraint firstItem="G90-Me-c5a" firstAttribute="leading" secondItem="d2y-Ic-RDG" secondAttribute="leading" constant="8" id="bD9-ua-5GU"/>
+                            <constraint firstItem="2e2-Mu-DtB" firstAttribute="top" secondItem="d2y-Ic-RDG" secondAttribute="top" constant="13" id="bm5-pj-Yo8"/>
+                            <constraint firstAttribute="trailing" secondItem="2e2-Mu-DtB" secondAttribute="trailing" constant="8" id="fpd-KV-uM5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KzB-wf-DlS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="d2y-Ic-RDG" secondAttribute="bottom" constant="1" id="RPg-GV-Ieh"/>
+                    <constraint firstAttribute="trailing" secondItem="d2y-Ic-RDG" secondAttribute="trailing" id="lbr-9X-edT"/>
+                    <constraint firstItem="d2y-Ic-RDG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sKa-ZV-cFI"/>
+                    <constraint firstItem="d2y-Ic-RDG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sng-F6-da1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="imgViewClient" destination="G90-Me-c5a" id="ncQ-NN-GcQ"/>
+                <outlet property="lblText" destination="2e2-Mu-DtB" id="P61-uZ-MzO"/>
+            </connections>
+            <point key="canvasLocation" x="321.5" y="302"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user_img5.png" width="81" height="81"/>
+    </resources>
+</document>

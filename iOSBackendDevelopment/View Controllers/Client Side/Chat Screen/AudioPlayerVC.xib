@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AudioPlayerVC">
+            <connections>
+                <outlet property="bgImgView" destination="xSD-BL-5Le" id="O5k-I0-qBk"/>
+                <outlet property="deleteButton" destination="J9G-JA-Jbr" id="qPl-yt-3YX"/>
+                <outlet property="playButton" destination="97M-bf-jM3" id="Ktb-qB-sgH"/>
+                <outlet property="recordButton" destination="zpB-k0-Rb4" id="SIQ-go-Fhu"/>
+                <outlet property="timerLabel" destination="eER-Zv-zi8" id="ayV-4U-lqo"/>
+                <outlet property="useButton" destination="W6b-j1-IhZ" id="YV2-rU-QUD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xSD-BL-5Le"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86a-5z-KXo">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hq-70-dDh">
+                            <frame key="frameInset" minX="118" minY="9" width="80" height="80"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpB-k0-Rb4">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Uw5-12-L0I"/>
+                                <constraint firstAttribute="width" constant="80" id="Xas-Ba-OtM"/>
+                            </constraints>
+                            <state key="normal" image="mic"/>
+                            <state key="selected" image="stopRec"/>
+                            <connections>
+                                <action selector="recordButtonAction:" destination="-1" eventType="touchUpInside" id="EN8-Nl-6f6"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eER-Zv-zi8">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="DVD-IJ-mGK"/>
+                                <constraint firstAttribute="height" constant="21" id="tQ0-cz-eiW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97M-bf-jM3">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="vEc-zr-e8q"/>
+                                <constraint firstAttribute="width" constant="30" id="xlD-7R-1G4"/>
+                            </constraints>
+                            <state key="normal" image="play"/>
+                            <state key="selected" image="stop"/>
+                            <connections>
+                                <action selector="playPauseButtonAction:" destination="-1" eventType="touchUpInside" id="iRA-p3-sUz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6b-j1-IhZ">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="OpC-NE-cf5"/>
+                                <constraint firstAttribute="width" constant="50" id="wOY-j5-U6U"/>
+                            </constraints>
+                            <state key="normal" title="Use">
+                                <color key="titleColor" red="0.15727370689655173" green="0.53817349137931036" blue="0.037284482758620688" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="useButtonAction:" destination="-1" eventType="touchUpInside" id="Stb-iW-K0M"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9G-JA-Jbr">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="PPH-ek-OBe"/>
+                                <constraint firstAttribute="width" constant="70" id="dHm-XV-fTm"/>
+                            </constraints>
+                            <state key="normal" title="Delete">
+                                <color key="titleColor" red="0.78477909479999997" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="deleteButtonAction:" destination="-1" eventType="touchUpInside" id="i0G-IA-Lni"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgc-Ko-4Gm">
+                            <frame key="frameInset" minX="8" minY="7" width="20" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="cross"/>
+                            <connections>
+                                <action selector="crossButtonAction:" destination="-1" eventType="touchUpInside" id="u4u-RM-I5T"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="zpB-k0-Rb4" firstAttribute="centerX" secondItem="86a-5z-KXo" secondAttribute="centerX" id="4Yc-TV-8pK"/>
+                        <constraint firstItem="eER-Zv-zi8" firstAttribute="centerX" secondItem="86a-5z-KXo" secondAttribute="centerX" id="5ig-Hw-hgR"/>
+                        <constraint firstItem="97M-bf-jM3" firstAttribute="centerX" secondItem="86a-5z-KXo" secondAttribute="centerX" constant="1.5" id="AzX-vE-WNf"/>
+                        <constraint firstAttribute="bottom" secondItem="W6b-j1-IhZ" secondAttribute="bottom" constant="21" id="Bkh-I6-Q2A"/>
+                        <constraint firstAttribute="bottom" secondItem="J9G-JA-Jbr" secondAttribute="bottom" constant="21" id="D8y-sF-Jr7"/>
+                        <constraint firstItem="W6b-j1-IhZ" firstAttribute="leading" secondItem="97M-bf-jM3" secondAttribute="trailing" constant="33" id="ORE-Eg-O8a"/>
+                        <constraint firstAttribute="bottom" secondItem="97M-bf-jM3" secondAttribute="bottom" constant="21" id="SFZ-zi-rdy"/>
+                        <constraint firstItem="eER-Zv-zi8" firstAttribute="top" secondItem="zpB-k0-Rb4" secondAttribute="bottom" constant="13" id="dJn-ge-na2"/>
+                        <constraint firstAttribute="height" constant="200" id="lkl-m0-fE0"/>
+                        <constraint firstItem="zpB-k0-Rb4" firstAttribute="top" secondItem="86a-5z-KXo" secondAttribute="top" constant="9" id="q8a-MK-unw"/>
+                        <constraint firstItem="97M-bf-jM3" firstAttribute="leading" secondItem="J9G-JA-Jbr" secondAttribute="trailing" constant="30" id="sZR-xw-EMk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="86a-5z-KXo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="JWv-CU-9TX"/>
+                <constraint firstItem="xSD-BL-5Le" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="b5H-70-7c7"/>
+                <constraint firstItem="xSD-BL-5Le" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ePM-PX-OTT"/>
+                <constraint firstAttribute="bottom" secondItem="xSD-BL-5Le" secondAttribute="bottom" id="h2B-St-SKj"/>
+                <constraint firstAttribute="trailing" secondItem="86a-5z-KXo" secondAttribute="trailing" constant="30" id="ooT-av-9fg"/>
+                <constraint firstAttribute="trailing" secondItem="xSD-BL-5Le" secondAttribute="trailing" id="wre-yD-TxJ"/>
+                <constraint firstItem="86a-5z-KXo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="zjO-Ma-HCw"/>
+            </constraints>
+            <point key="canvasLocation" x="-37.5" y="40.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross" width="20" height="20"/>
+        <image name="mic" width="100" height="100"/>
+        <image name="play" width="40" height="40"/>
+        <image name="stop" width="40" height="40"/>
+        <image name="stopRec" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,11 @@
+dependencies: \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesAvatarImageFactory.m \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesAvatarImageFactory.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Models/ZHCMessagesAvatarImage.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Models/ZHCMessageAvatarImageDataSource.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Categories/UIColor+ZHCMessages.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Common/ZHCMessagesCommonParameter.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Views/ZHCMessagesTableViewCell.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Views/ZHCMessagesLabel.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Views/ZHCMessagesCellTextView.h

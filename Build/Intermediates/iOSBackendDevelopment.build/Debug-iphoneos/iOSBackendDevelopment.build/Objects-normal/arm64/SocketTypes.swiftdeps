@@ -1,0 +1,109 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketData"
+- "AckCallback"
+- "NormalCallback"
+- "OnAckCallback"
+- "Probe"
+- "ProbeWaitQueue"
+- "Either"
+provides-nominal:
+- "P8Flink_It10SocketData"
+- "Sa"
+- "Sb"
+- "Vs10Dictionary"
+- "Sd"
+- "Si"
+- "CSo7NSArray"
+- "V10Foundation4Data"
+- "CSo6NSData"
+- "CSo12NSDictionary"
+- "CSo8NSString"
+- "CSo6NSNull"
+- "SS"
+- "O8Flink_It6Either"
+provides-member:
+- ["P8Flink_It10SocketData", ""]
+- ["Sa", ""]
+- ["Sb", ""]
+- ["Vs10Dictionary", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["CSo7NSArray", ""]
+- ["V10Foundation4Data", ""]
+- ["CSo6NSData", ""]
+- ["CSo12NSDictionary", ""]
+- ["CSo8NSString", ""]
+- ["CSo6NSNull", ""]
+- ["SS", ""]
+- ["O8Flink_It6Either", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "OnAckCallback"
+- "NormalCallback"
+- "Array"
+- "Probe"
+- "Bool"
+- "SocketAckEmitter"
+- "UInt64"
+- "Double"
+- "Data"
+- "Void"
+- "SocketEnginePacketType"
+- "NSArray"
+- "AckCallback"
+- "String"
+- "Int"
+- "SocketData"
+- "ProbeWaitQueue"
+- "Either"
+- "NSNull"
+- "NSData"
+- "NSDictionary"
+- "Dictionary"
+- "NSString"
+depends-member:
+- ["Sa", "deinit"]
+- ["Sb", "deinit"]
+- ["V10Foundation4Data", "deinit"]
+- ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- ["O8Flink_It6Either", "E"]
+- ["O8Flink_It6Either", "V"]
+- ["O8Flink_It6Either", "left"]
+- ["O8Flink_It6Either", "right"]
+- ["Si", "deinit"]
+- ["CSo7NSArray", "deinit"]
+- ["CSo6NSData", "deinit"]
+- ["CSo12NSDictionary", "deinit"]
+- ["CSo6NSNull", "deinit"]
+- ["CSo8NSString", "deinit"]
+- ["P8Flink_It10SocketData", ""]
+- ["SS", "deinit"]
+depends-nominal:
+- "Sa"
+- "Sb"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- "Sd"
+- "O8Flink_It6Either"
+- "Si"
+- "CSo7NSArray"
+- "CSo6NSData"
+- "CSo12NSDictionary"
+- "CSo6NSNull"
+- "CSo8NSString"
+- "P8Flink_It10SocketData"
+- "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/SocketIO/Flink It-Bridging-Header.h"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+interface-hash: "bf2f4c755ba4bf334fc4f3bccfb1c7aa"

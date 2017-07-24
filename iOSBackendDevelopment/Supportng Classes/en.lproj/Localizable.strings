@@ -1,0 +1,369 @@
+/* 
+  Localizable.strings
+  iOSBackendDevelopment
+
+  Created by Abhishek Agarwal on 07/04/16.
+  Copyright © 2016 Mobiloitte. All rights reserved.
+*/
+
+//****************************************** Client Side Screen ************************************************//
+
+"Please give some reason." = "Please give some reason.";
+//Login Screen
+"Log In" = "Log In";
+"Remember me" = "Remember me";
+"Forgot password?" = "Forgot password?";
+"If YOU ARE NEW USER Sign Up?" = "If YOU ARE NEW USER Sign Up?";
+"OR" = "OR";
+"EMAIL" = "EMAIL";
+"PASSWORD" = "PASSWORD";
+"Please enter username or password." = "Please enter username or password.";
+"Please enter the email address." = "Please enter the email address.";
+"Please enter  a valid email address." = "Please enter a valid email address.";
+"Please enter the password." = "Please enter the password.";
+"Password must be of atleast 6 characters." = "Password must be of atleast 6 characters.";
+"Invalid Username or Password."= "Invalid Username or Password.";
+"Login and get your job done with a single tap." = "Login and get your job done with a single tap.";
+"Are you sure you want to enable your GPS location?" = "Are you sure you want to enable your GPS location?";
+"Error in login to facebook." = "Error in login to facebook.";
+"Please enter email or password." = "Please enter email or password.";
+"Invalid email or Password." = "Invalid email or Password.";
+"Please enter email in english." = "Please enter email in english.";
+"Please enter phone no in english." = "Please enter phone no in english.";
+
+//Sign Up Screen
+"Sign Up and get the right person in the right time for the right job." = "Sign Up and get the right person in the right time for the right job.";
+"Already have an account? Login" = "Already have an account?Login";
+"BY CREATING AN ACCOUNT, YOU AGREE TO Flink It TERMS OF SERVICES." = "BY CREATING AN ACCOUNT, YOU AGREE TO Flink It TERMS OF SERVICES.";
+"Username" = "Username";
+"Email Address" = "Email Address";
+"Password" = "Password";
+"Confirm Password" = "Confirm Password";
+"Age" = "Age";
+"State ,Country(Autofill By Location)" = "State ,Country(Autofill By Location)";
+"Address" = "Address";
+"Contact No." = "Contact No.";
+"Male" = "Male";
+"Female" = "Female";
+"Gender" = "Gender";
+"Sign Up As Client" = "Sign Up As Client";
+"Done" = "Done";
+"Distance Preference" = "Distance Preference";
+"Please select the user image." = "Please select the user image.";
+"Please enter the username." = "Please enter the username.";
+"Please enter the valid username." = "Please enter the valid username.";
+"Please enter the email address." = "Please enter the email address.";
+"Please enter the valid email address." = "Please enter the valid email address.";
+"Please enter the password." = "Please enter the password.";
+"Password must be of atleast 6 characters." = "Password must be of atleast 6 characters.";
+"Please enter the confirm password." = "Please enter the confirm password.";
+"Password and confirm password should be same." = "Password and confirm password should be same.";
+"Please select the age." = "Please select the age.";
+"Please enter the state." = "Please enter the state.";
+"Please enter the address." = "Please enter the address.";
+"Please enter the contact number." = "Please enter the contact number.";
+"Contact number must be of 10 characters." = "Contact number must be of 10 characters.";
+"Please select the distance preference." = "Please select the distance preference.";
+"Error!" = "Error!";
+"TERMS OF SERVICES." = "TERMS OF SERVICES.";
+"Category" = "Category";
+"Email" = "Email";
+"Please enter the location in full format." = "Please enter the location in full format.";
+
+//Mobile Registration Screen
+"Enter OTP sent to your Mobile Device." = "Enter OTP sent to your \n Mobile Device";
+"Mobile Registration" = "Mobile Registration";
+"Confirm" = "Confirm";
+"Re-send OTP"= "Re-send OTP";
+"Example 2356" = "Example 2356";
+"Please enter the OTP." = "Please enter the OTP.";
+
+//Terms and Conditions
+"Terms and Conditions" = "Terms and Conditions";
+
+//Forgot Password
+"Forgot Password" = "Forgot Password";
+"Forgot your Password?" = "Forgot your Password?";
+"No Need to Worry just type in your E-Mail we will get back to you." = "No Need to Worry just type in your E-Mail \n we will get back to you.";
+"A Code will be sent to your Email ID.Login with the Code and Change your Password." = "A Code will be sent to your Email ID.\n Login with the Code and Change \n your Password.";
+"Submit" = "Submit";
+"Enter Your Email ID" = "Enter Your Email ID";
+
+// Email Screen
+"Email To :" = "Email To :";
+"Send" = "Send";
+
+//Report Profile
+"Report Profile" = "Report Profile";
+"Please write the description of your Report" = "Please write the description of \n your report";
+"Report" = "Report";
+
+
+//Select Your Choice
+"All" = "All";
+"Artist" = "Artist";
+"Chefs" = "Chefs";
+"Clean Worker" = "Clean Worker";
+"Gardener" = "Gardener";
+"Decoration" = "Decoration";
+"Moving" = "Moving";
+"Painter" = "Painter";
+"Plumber" = "Plumber";
+"Towing" = "Towing";
+"Carpenter" = "Carpenter";
+"IT" = "IT";
+"Exterminator" = "Exterminator";
+"Electrician"= "Electrician";
+"Mechanic" = "Mechanic";
+"Health" = "Health";
+"Beauty" = "Beauty";
+"Tutor" = "Tutor";
+"Tailor" = "Tailor";
+"Snow Shoveling" = "Snow Shoveling";
+"Car wash" = "Car wash";
+"Photographer" = "Photographer";
+"Fun & Party" = "Fun & Party";
+"Smithy" = "Smithy";
+"Air Cooling" = "Air Cooling";
+"Select Your Choice" = "Select Your Choice";
+"Bodyguards" = "Bodyguards";
+"Consultation" = "Consultation";
+"Black Smithy" = "Black Smithy";
+
+//Edit Profile Screen
+"Edit Profile" = "Edit Profile";
+"Age(Year)" = "Age(Year)";
+
+//Menu Section
+"Push Notifications" = "Push Notifications";
+"Display My Number" = "Display My Number";
+"Home" = "Home";
+"Profile" = "Profile";
+"Notifications" = "Notifications";
+"Change Password" = "Change Password";
+"Service Tracking" = "Service Tracking";
+"Favourite List" = "Favourite List";
+"Chats" = "Chats";
+"Share the Application" = "Share the Application";
+"Logout" = "Logout";
+"Are you sure you want to logout?" = "Are you sure you want to logout?";
+"No" = "No";
+"Yes" = "Yes";
+
+
+//Change Password
+"Change Password" = "Change Password";
+"Enter Old Password" = "Enter Old Password";
+"Enter New Password" = "Enter New Password";
+"Confirm New Password" = "Confirm New Password";
+"Please enter the old password." = "Please enter the old password.";
+"Old Password must be of atleast 6 characters." = "Old Password must be of atleast 6 characters.";
+"Please enter the new password." = "Please enter the new password.";
+"New Password must be of atleast 6 characters." = "New Password must be of atleast 6 characters.";
+"New password and old password should not be same." = "New password and old password should not be same.";
+"Please confirm the new password." = "Please confirm the new password.";
+"New password and confirm new password should be same." = "New password and confirm new password should be same.";
+
+//Service Tracking
+"No record found." = "No record found.";
+
+//Favourites Screen
+"Favourites" = "Favourites";
+"Search Service Providers" = "Search Service Providers by #tag";
+
+//Filter Screen
+"Filter" = "Filter";
+"Filter by Price" = "Filter by Price";
+"Filter by Distance(Kilometer)" = "Filter by Distance(Kilometer)";
+"Filter by Ratings" = "Filter by Ratings";
+"Filter by Number of Jobs" = "Filter by Number of Jobs";
+"Availability" = "Availability";
+"Apply Filters" = "Apply Filters";
+"Low to High" = "Low to High";
+"High to Low" = "High to Low";
+"10" = "10";
+"20" = "20";
+"30" = "30";
+"40" = "40";
+"50" = "50";
+"75" = "75";
+"100" = "100";
+"150" = "150";
+"250" = "250";
+"500" = "500";
+"1000" = "1000";
+"11" = "11";
+"101" = "101";
+"201" = "201";
+"300" = "300";
+
+//My Notifications Screen
+"My Notifications" = "My Notifications";
+
+//Notifications Screen
+"Notifications" = "Notifications";
+"View Profile" = "View Profile";
+"Approve" = "Approve";
+
+//Category Name Screen
+"Science" = "Science";
+
+//Give a Review
+"Give a Review" = "Give a Review";
+"Do you want to add this service provider as favourite ?" = "Do you want to add this service \n provider as favourite ?";
+"Add to Favourite" = "Add to Favourite";
+"Upload a photo for the job" = "Upload a photo for the job";
+"Send" = "Send";
+"Share" = "Share";
+"Write a Comment" = "Write a Comment";
+
+//My Profile
+"My Profile" = "My Profile" ;
+"On Going Services" = "On Going Services";
+
+//Provider Current Location
+"Provider Current Location" = "Provider Current Location";
+"Cancel Job" = "Cancel Job";
+"Please Give the Reason why do you want to cancel the Job." = "Please Give the Reason \n why do you want to \n cancel the Job.";
+
+//Map Screen
+"Map" = "Map";
+
+//Messages Screen
+"Messages" = "Messages";
+
+//Chat Screen
+"Chat" = "Chat";
+"Type message" = "Type message";
+
+//Email View
+"Email View" = "Email View";
+"Email From :" = "Email From :";
+"Service Provider Name" = "Service Provider Name";
+"Reply" = "Reply";
+
+//Provider's Detail
+"Provider's Detail" = "Provider's Detail";
+"Photos" = "Photos";
+"Price/Hour*" = "Price/Hour*";
+"Report Profile" = "Report Profile";
+"Review" = "Review";
+"Send Hiring Request" = "Send Hiring Request";
+"Title of the services" = "Title of the service";
+"Description of the Job" = "Description of the job";
+"Price to be Paid" = "Price to be paid";
+"Use " = "Use ";
+"OK" = "OK";
+"Are you sure you want to cancel the request?" = "Are you sure you want to cancel the request?";
+"Are you sure you want to add it as favourite?" = "Are you sure you want to add it as favourite?";
+"Are you sure you want to remove it as favourite?" = "Are you sure you want to remove it as favourite?";
+
+
+
+//**************************** Service Provider Screen ******************************************//
+
+//Sign Up Screen
+"Description or type a #tag as per your skills without space" = "Description or type a #tag as per your skills without space";
+"Upload your Exp Doc." = "Upload your Exp Doc.";
+"Language Known" = "Language Known";
+"Sample of work:" = "Sample of work:";
+"Price / Hour" = "Price / Hour";
+"Please enter the price / hour." = "Please enter the price / hour.";
+"Please select the language known." = "Please select the language known.";
+"Cancel" = "Cancel";
+"Take Photo" = "Take Photo";
+"Choose Photo" = "Choose Photo";
+"Km" = "Km";
+"Miles" = "Miles";
+"Device has no camera." = "Device has no camera.";
+"Next" = "Next";
+"Do you want to delete this sample image?" = "Do you want to delete this sample image?";
+
+
+//Job Requests Screen
+"Job Requests" = "Job Requests";
+"Cancel Job Request" = "Cancel Job Request";
+
+//Client's Detail
+"Client's  Detail" = "Client's  Detail";
+"Ratings and Reviews" = "Ratings and Reviews";
+"Accept" = "Accept";
+"Decline" = "Decline";
+"Job Price" = "Job Price";
+"Job Title" = "Job Title";
+"Description" = "Description";
+"Are you sure you want to accept the job request?" = "Are you sure you want to accept the job request?";
+"Are you sure you want to decline the job request?" = "Are you sure you want to decline the job request?";
+
+//Select your Choice
+"Status" = "Status";
+"Job Request" = "Job Request";
+"Subscribe" = "Subscribe";
+"Available" = "Available";
+"Busy" = "Busy";
+"Search" = "Search by #tag";
+
+//Client Current location
+"Client Current Location" = "Client Current Location";
+"Enable Location Service" = "Enable Location Service";
+"You have to enable the Location Service to use this App. To enable, please go to Settings->Privacy->Location Services" = "You have to enable the Location Service to use this App. To enable, please go to Settings->Privacy->Location Services";
+"Have Accepted your request for Hiring." = "Have Accepted your request for Hiring.";
+"Have Sent you request for Hiring." = "Have Sent you request for Hiring.";
+
+"Cancel Job Request" = "Cancel Job Request";
+"On Going Job" = "On Going Job";
+"Send Hiring Request" = "Send Hiring Request";
+
+"View" = "View";
+"Cancel" = "Cancel";
+"has sent a message to you." = "has sent a message to you.";
+"Contact Number" = "Contact Number";
+"Price/Hour" = "Price($)/Hour";
+"Please select the category." = "Please select the category.";
+
+//"Email" = "Email";
+"Choose Your Subscription Plan" = "Choose Your Subscription Plan";
+"Success." = "Success.";
+"Mark as Completed" = "Mark as Completed";
+"Alert" = "Alert";
+"Please enter message." = "Please enter message.";
+"Please enter report description." = "Please enter report description.";
+
+"Please Select your Status" = "Please Select Your Status";
+"Price must be greater than zero." = "Price must be greater than zero.";
+
+"You can not send message to blocked user" = "You can't send message to blocked user.";
+
+// memory leaks
+"60" = "60";
+"User unblocked successfully." = "User unblocked successfully.";
+"Message deleted successfully." = "Message deleted successfully.";
+"Email deleted successfully." = "Email deleted successfully.";
+"Block List" = "Block List";
+"Characters" = "Characters";
+"Last seen:" = "Last seen:";
+"Google map" = "Google map";
+"Apple map" = "Apple map";
+"Are you sure you want to approve the job?" = "Are you sure you want to approve the job?";
+"￼Don’t Approve" = "￼Don’t Approve";
+
+"View later" = "View later";
+"View profile" = "View profile";
+"Have cancelled the job." = "Have cancelled the job.";
+"Congratulations" = "Congratulations";
+
+"Your subscription is activated for one month" = "Your subscription is activated for one month";
+"Your subscription is activated for three months" = "Your subscription is activated for three months";
+"Your subscription is activated for six months" = "Your subscription is activated for six months";
+"Your subscription is activated for one year" ="Your subscription is activated for one year";
+
+"Open With" = "Open With";
+"Coming soon." = "Coming soon.";
+
+"Multiple Jobs" = "Multiple Jobs";
+//"unapproved" = "Send Hiring Request";
+
+"canceled" = "Canceled";
+
+"Job already canceled." = "Job already canceled.";
+"Location" = "Location";

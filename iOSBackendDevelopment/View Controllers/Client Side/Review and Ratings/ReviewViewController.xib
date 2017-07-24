@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReviewViewController">
+            <connections>
+                <outlet property="btnBack" destination="afT-CU-DUm" id="QxI-71-7Kw"/>
+                <outlet property="reviewTableView" destination="EAA-ib-hkl" id="mA7-GR-mDk"/>
+                <outlet property="reviewTitleLabel" destination="ctm-iC-yhh" id="eQq-Bb-JYK"/>
+                <outlet property="view" destination="egr-q6-cMG" id="KzC-vp-cEc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="egr-q6-cMG">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Btl-Fq-oWj">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EAA-ib-hkl">
+                    <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="fdk-he-8MS"/>
+                        <outlet property="delegate" destination="-1" id="w1D-Pr-Zpn"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vmL-05-2os">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews and Ratings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-iC-yhh">
+                            <rect key="frame" x="70" y="27" width="235" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="dww-vS-G9M"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afT-CU-DUm">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="Yun-hK-7KD"/>
+                                <constraint firstAttribute="width" constant="70" id="ZDG-9a-XeI"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="20" maxX="20" maxY="0.0"/>
+                            <state key="normal" image="back_icon">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="nfN-AV-nyZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ctm-iC-yhh" firstAttribute="leading" secondItem="afT-CU-DUm" secondAttribute="trailing" id="2d5-Vb-X4L"/>
+                        <constraint firstItem="ctm-iC-yhh" firstAttribute="top" secondItem="vmL-05-2os" secondAttribute="top" constant="27" id="GIk-DY-cXZ"/>
+                        <constraint firstItem="afT-CU-DUm" firstAttribute="top" secondItem="vmL-05-2os" secondAttribute="top" id="K0l-bd-IB2"/>
+                        <constraint firstAttribute="height" constant="64" id="Lqs-zw-qFx"/>
+                        <constraint firstItem="afT-CU-DUm" firstAttribute="leading" secondItem="vmL-05-2os" secondAttribute="leading" id="mIQ-a3-2tg"/>
+                        <constraint firstItem="ctm-iC-yhh" firstAttribute="centerX" secondItem="vmL-05-2os" secondAttribute="centerX" id="tEx-kd-4K8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EAA-ib-hkl" secondAttribute="trailing" id="8md-1e-zoG"/>
+                <constraint firstItem="EAA-ib-hkl" firstAttribute="leading" secondItem="egr-q6-cMG" secondAttribute="leading" id="9Zq-HQ-7HR"/>
+                <constraint firstAttribute="trailing" secondItem="vmL-05-2os" secondAttribute="trailing" id="IiN-af-KAr"/>
+                <constraint firstItem="EAA-ib-hkl" firstAttribute="top" secondItem="vmL-05-2os" secondAttribute="bottom" constant="6" id="QNT-rk-dF3"/>
+                <constraint firstItem="vmL-05-2os" firstAttribute="top" secondItem="egr-q6-cMG" secondAttribute="top" id="VWT-Bj-n4m"/>
+                <constraint firstItem="Btl-Fq-oWj" firstAttribute="top" secondItem="vmL-05-2os" secondAttribute="bottom" id="Wpp-vZ-kZN"/>
+                <constraint firstItem="vmL-05-2os" firstAttribute="leading" secondItem="egr-q6-cMG" secondAttribute="leading" id="cMf-Ka-ovY"/>
+                <constraint firstAttribute="trailing" secondItem="Btl-Fq-oWj" secondAttribute="trailing" id="ens-bZ-ZNe"/>
+                <constraint firstAttribute="bottom" secondItem="Btl-Fq-oWj" secondAttribute="bottom" id="qAC-eH-GNs"/>
+                <constraint firstAttribute="bottom" secondItem="EAA-ib-hkl" secondAttribute="bottom" id="uGH-hR-yRc"/>
+                <constraint firstItem="Btl-Fq-oWj" firstAttribute="leading" secondItem="egr-q6-cMG" secondAttribute="leading" id="xeD-qh-llV"/>
+            </constraints>
+            <point key="canvasLocation" x="-45.5" y="56.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_icon" width="30" height="30"/>
+        <image name="background" width="320" height="480"/>
+    </resources>
+</document>

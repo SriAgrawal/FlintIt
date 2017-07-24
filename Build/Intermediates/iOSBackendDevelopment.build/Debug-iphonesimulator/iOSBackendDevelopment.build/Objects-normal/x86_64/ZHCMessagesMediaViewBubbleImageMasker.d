@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesMediaViewBubbleImageMasker.m \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesMediaViewBubbleImageMasker.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesBubbleImageFactory.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Models/ZHCMessagesBubbleImage.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Models/ZHCMessageBubbleImageDataSource.h

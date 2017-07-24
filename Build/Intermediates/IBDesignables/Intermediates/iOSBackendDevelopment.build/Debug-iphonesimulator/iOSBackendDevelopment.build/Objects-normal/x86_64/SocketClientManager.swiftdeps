@@ -1,0 +1,269 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketClientManager"
+provides-nominal:
+- "C8Flink_It19SocketClientManager"
+provides-member:
+- ["C8Flink_It19SocketClientManager", ""]
+provides-dynamic-lookup:
+- "addSocket"
+- "subscript"
+- "sharedManager"
+- "removeSocket"
+- "removeSocket"
+- "removeSockets"
+depends-top-level:
+- "SocketClientManager"
+- "SocketIOClient"
+- "NSObject"
+- "String"
+- "AssignmentPrecedence"
+- !private "==="
+depends-member:
+- ["Ps9AnyObject", "SocketClientManager"]
+- ["Ps9AnyObject", "SocketIOClient"]
+- ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "addSocket"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "removeSocket"]
+- ["Ps9AnyObject", "removeSockets"]
+- ["Ps9AnyObject", "sharedManager"]
+- ["Ps9AnyObject", "sockets"]
+- ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "SocketClientManager"]
+- ["Ps7CVarArg", "SocketIOClient"]
+- ["Ps7CVarArg", "String"]
+- ["Ps7CVarArg", "addSocket"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "removeAll"]
+- ["Ps7CVarArg", "removeSocket"]
+- ["Ps7CVarArg", "removeSockets"]
+- !private ["Ps7CVarArg", "removeValue"]
+- ["Ps7CVarArg", "sharedManager"]
+- ["Ps7CVarArg", "sockets"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "removeAll"]
+- !private ["Ps10Collection", "removeValue"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "SocketClientManager"]
+- ["Ps28CustomDebugStringConvertible", "SocketIOClient"]
+- ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "addSocket"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- ["Ps28CustomDebugStringConvertible", "removeSocket"]
+- ["Ps28CustomDebugStringConvertible", "removeSockets"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValue"]
+- ["Ps28CustomDebugStringConvertible", "sharedManager"]
+- ["Ps28CustomDebugStringConvertible", "sockets"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "removeAll"]
+- !private ["Ps17CustomReflectable", "removeValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "SocketClientManager"]
+- ["Ps23CustomStringConvertible", "SocketIOClient"]
+- ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addSocket"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- ["Ps23CustomStringConvertible", "removeSocket"]
+- ["Ps23CustomStringConvertible", "removeSockets"]
+- !private ["Ps23CustomStringConvertible", "removeValue"]
+- ["Ps23CustomStringConvertible", "sharedManager"]
+- ["Ps23CustomStringConvertible", "sockets"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "removeAll"]
+- !private ["Vs10Dictionary", "removeValue"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- ["Ps9Equatable", "SocketClientManager"]
+- ["Ps9Equatable", "SocketIOClient"]
+- ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addSocket"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "removeSocket"]
+- ["Ps9Equatable", "removeSockets"]
+- ["Ps9Equatable", "sharedManager"]
+- ["Ps9Equatable", "sockets"]
+- ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "removeAll"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "removeValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps8Hashable", "SocketClientManager"]
+- ["Ps8Hashable", "SocketIOClient"]
+- ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addSocket"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "removeSocket"]
+- ["Ps8Hashable", "removeSockets"]
+- ["Ps8Hashable", "sharedManager"]
+- ["Ps8Hashable", "sockets"]
+- ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "removeValue"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "removeAll"]
+- !private ["Ps13IndexableBase", "removeValue"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["CSo8NSObject", "SocketClientManager"]
+- ["CSo8NSObject", "SocketIOClient"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "addSocket"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "removeSocket"]
+- ["CSo8NSObject", "removeSockets"]
+- ["CSo8NSObject", "sharedManager"]
+- ["CSo8NSObject", "sockets"]
+- ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "SocketClientManager"]
+- ["PSo16NSObjectProtocol", "SocketIOClient"]
+- ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "addSocket"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "removeSocket"]
+- ["PSo16NSObjectProtocol", "removeSockets"]
+- ["PSo16NSObjectProtocol", "sharedManager"]
+- ["PSo16NSObjectProtocol", "sockets"]
+- ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "removeAll"]
+- !private ["Ps8Sequence", "removeValue"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["C8Flink_It19SocketClientManager", "SocketClientManager"]
+- ["C8Flink_It19SocketClientManager", "SocketIOClient"]
+- ["C8Flink_It19SocketClientManager", "String"]
+- ["C8Flink_It19SocketClientManager", "addSocket"]
+- ["C8Flink_It19SocketClientManager", "deinit"]
+- ["C8Flink_It19SocketClientManager", "init"]
+- ["C8Flink_It19SocketClientManager", "removeSocket"]
+- ["C8Flink_It19SocketClientManager", "removeSockets"]
+- ["C8Flink_It19SocketClientManager", "sharedManager"]
+- !private ["C8Flink_It19SocketClientManager", "sockets"]
+- ["C8Flink_It19SocketClientManager", "subscript"]
+- !private ["P8Flink_It10SocketData", "Iterator"]
+- !private ["P8Flink_It10SocketData", "_getBuiltinLogicValue"]
+- ["P8Flink_It10SocketData", "init"]
+- !private ["P8Flink_It10SocketData", "removeAll"]
+- !private ["P8Flink_It10SocketData", "removeValue"]
+- !private ["P8Flink_It10SocketData", "subscript"]
+- ["C8Flink_It14SocketIOClient", "deinit"]
+- ["SS", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "SocketClientManager"]
+- ["Ps9_Hashable", "SocketIOClient"]
+- ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "addSocket"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "removeSocket"]
+- ["Ps9_Hashable", "removeSockets"]
+- ["Ps9_Hashable", "sharedManager"]
+- ["Ps9_Hashable", "sockets"]
+- ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps8Sequence"
+- !private "Vs5Slice"
+- "C8Flink_It19SocketClientManager"
+- "P8Flink_It10SocketData"
+- "C8Flink_It14SocketIOClient"
+- "SS"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/SocketIO/Flink It-Bridging-Header.h"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+interface-hash: "f0ca3cc1de827aec0e0f6746de3f7144"

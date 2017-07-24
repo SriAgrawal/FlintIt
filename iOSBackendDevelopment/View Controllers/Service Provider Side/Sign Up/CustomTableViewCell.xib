@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="162" id="KGk-i7-Jjw" customClass="CustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="375" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFb-7f-Zgf">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ceh-3T-dDS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OrT-my-o3u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="15"/>
+                                <state key="normal" title="Upload your Exp Doc.">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="G90-TS-JCD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6QR-xX-te4"/>
+                                    <constraint firstAttribute="width" constant="30" id="Zck-Vf-ZAc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsF-6F-gaH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="U87-2B-hf6"/>
+                                    <constraint firstAttribute="height" constant="30" id="X63-bu-Bmp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="zoomOutButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nrQ-cJ-5HT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="G90-TS-JCD" secondAttribute="trailing" constant="8" id="0Jd-kl-C4P"/>
+                            <constraint firstAttribute="trailing" secondItem="Ceh-3T-dDS" secondAttribute="trailing" id="2mC-VY-Spy"/>
+                            <constraint firstItem="Ceh-3T-dDS" firstAttribute="top" secondItem="bFb-7f-Zgf" secondAttribute="top" constant="8" id="6MN-KA-Q8j"/>
+                            <constraint firstAttribute="trailing" secondItem="qsF-6F-gaH" secondAttribute="trailing" constant="8" id="92S-1T-FVg"/>
+                            <constraint firstItem="G90-TS-JCD" firstAttribute="top" secondItem="bFb-7f-Zgf" secondAttribute="top" constant="8" id="HhB-T3-yIV"/>
+                            <constraint firstItem="Ceh-3T-dDS" firstAttribute="leading" secondItem="bFb-7f-Zgf" secondAttribute="leading" constant="7" id="R6N-es-yxY"/>
+                            <constraint firstItem="qsF-6F-gaH" firstAttribute="top" secondItem="bFb-7f-Zgf" secondAttribute="top" constant="8" id="bFC-JE-QDF"/>
+                            <constraint firstAttribute="height" constant="50" id="nCA-RV-Ebd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bFb-7f-Zgf" secondAttribute="trailing" constant="55" id="3MZ-g5-6p9"/>
+                    <constraint firstItem="bFb-7f-Zgf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="55" id="Gdw-Hv-F8X"/>
+                    <constraint firstItem="bFb-7f-Zgf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jhH-i1-07b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="btnUpload" destination="Ceh-3T-dDS" id="tvi-JQ-93V"/>
+                <outlet property="docImageView" destination="G90-TS-JCD" id="0ai-Pj-oZj"/>
+                <outlet property="viewLeftconstraint" destination="Gdw-Hv-F8X" id="pSR-sn-hqx"/>
+                <outlet property="viewRightConstraint" destination="3MZ-g5-6p9" id="cjM-13-DVJ"/>
+                <outlet property="zoomOutButton" destination="qsF-6F-gaH" id="kQs-xM-mWb"/>
+            </connections>
+            <point key="canvasLocation" x="38.5" y="-58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon" width="37" height="28"/>
+    </resources>
+</document>

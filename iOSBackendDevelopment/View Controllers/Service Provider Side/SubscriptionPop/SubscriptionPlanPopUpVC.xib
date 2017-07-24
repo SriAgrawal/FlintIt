@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscriptionPlanPopUpVC">
+            <connections>
+                <outlet property="labelChooseYourPaln" destination="gQ9-8M-G2h" id="zCV-xN-0qS"/>
+                <outlet property="tableView_SubscriptionPopUp" destination="PvR-ij-GBj" id="Jc1-tE-Pkk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_Outer" destination="24Q-Aj-Qbi" id="lgi-rw-Ujd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24Q-Aj-Qbi">
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PvR-ij-GBj">
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="2Ik-xb-39f"/>
+                                <outlet property="delegate" destination="-1" id="vG3-dN-0qs"/>
+                            </connections>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VMw-wh-YM2">
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1z-PA-syx">
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="3L9-20-gUn"/>
+                                        <constraint firstAttribute="height" constant="35" id="YkF-dJ-yeL"/>
+                                    </constraints>
+                                    <state key="normal" title="X">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="YDt-xJ-IHm"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Subscription Plan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQ9-8M-G2h">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="nxC-A0-cce"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="h1z-PA-syx" firstAttribute="leading" secondItem="gQ9-8M-G2h" secondAttribute="trailing" id="0L8-Cq-eii"/>
+                                <constraint firstAttribute="trailing" secondItem="h1z-PA-syx" secondAttribute="trailing" constant="8" id="7Vg-lb-OSX"/>
+                                <constraint firstItem="gQ9-8M-G2h" firstAttribute="top" secondItem="VMw-wh-YM2" secondAttribute="top" id="TaJ-nY-5j4"/>
+                                <constraint firstItem="h1z-PA-syx" firstAttribute="top" secondItem="VMw-wh-YM2" secondAttribute="top" constant="3" id="k4E-ia-ART"/>
+                                <constraint firstItem="gQ9-8M-G2h" firstAttribute="leading" secondItem="VMw-wh-YM2" secondAttribute="leading" constant="5" id="tlK-wm-zij"/>
+                                <constraint firstAttribute="height" constant="40" id="wlu-NX-woZ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PvR-ij-GBj" secondAttribute="trailing" id="2BF-Z6-IcN"/>
+                        <constraint firstAttribute="width" constant="260" id="Hbf-pN-o1K"/>
+                        <constraint firstItem="PvR-ij-GBj" firstAttribute="leading" secondItem="24Q-Aj-Qbi" secondAttribute="leading" id="Kie-cM-RHk"/>
+                        <constraint firstAttribute="height" constant="260" id="PJc-y6-Bo7"/>
+                        <constraint firstAttribute="bottom" secondItem="PvR-ij-GBj" secondAttribute="bottom" id="TyS-9l-U2s"/>
+                        <constraint firstItem="PvR-ij-GBj" firstAttribute="top" secondItem="VMw-wh-YM2" secondAttribute="bottom" id="Wyi-QV-EBP"/>
+                        <constraint firstItem="VMw-wh-YM2" firstAttribute="top" secondItem="24Q-Aj-Qbi" secondAttribute="top" id="hrz-0g-Hvw"/>
+                        <constraint firstAttribute="trailing" secondItem="VMw-wh-YM2" secondAttribute="trailing" id="ida-mq-kPR"/>
+                        <constraint firstItem="VMw-wh-YM2" firstAttribute="leading" secondItem="24Q-Aj-Qbi" secondAttribute="leading" id="m5J-qW-b30"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="24Q-Aj-Qbi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LXK-qq-BQQ"/>
+                <constraint firstItem="24Q-Aj-Qbi" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-0.5" id="tt0-a2-JfE"/>
+            </constraints>
+            <point key="canvasLocation" x="-44" y="98"/>
+        </view>
+    </objects>
+</document>

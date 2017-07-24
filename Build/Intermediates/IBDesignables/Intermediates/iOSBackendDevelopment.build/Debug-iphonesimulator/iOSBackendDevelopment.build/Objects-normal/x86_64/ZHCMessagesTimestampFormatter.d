@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesTimestampFormatter.m \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/iOSBackendDevelopment/ZHCMessageViewController/Factories/ZHCMessagesTimestampFormatter.h \
+  /Users/pushprajchaudhary/Desktop/IOSBackendDevelopment/iosappwithbackenddevelopment-16022564-ios/Pods/Google/Headers/module.modulemap

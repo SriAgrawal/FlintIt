@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUPVC">
+            <connections>
+                <outlet property="btnCancel" destination="onW-GZ-ER5" id="ec0-Xr-dBJ"/>
+                <outlet property="btnCross" destination="m1a-9X-yHF" id="ou2-wp-EG1"/>
+                <outlet property="btnFixedPriceProperty" destination="AAC-r4-iHz" id="bmV-Dy-odO"/>
+                <outlet property="btnOK" destination="Akt-EG-iZd" id="RWF-TG-ggg"/>
+                <outlet property="btnUse" destination="AAC-r4-iHz" id="raK-fV-uhz"/>
+                <outlet property="centerYVerticalConstraint" destination="aCR-gY-1tb" id="Pfr-q0-jHu"/>
+                <outlet property="descriptionTxtField" destination="RY3-Wb-pdn" id="nYh-Yg-x7w"/>
+                <outlet property="lblDescription" destination="tYc-FV-AYq" id="cMw-YR-3w7"/>
+                <outlet property="lblInstruction" destination="fIj-ec-qQQ" id="hw5-CC-ov3"/>
+                <outlet property="lblOR" destination="p04-gT-rqH" id="wd0-by-ATe"/>
+                <outlet property="lblPricePaid" destination="DzN-pJ-8c0" id="aah-bz-kHR"/>
+                <outlet property="lblTitleService" destination="zle-l9-1n7" id="SkY-KZ-vfQ"/>
+                <outlet property="paidtxtField" destination="793-JB-8aT" id="hMc-ya-5yT"/>
+                <outlet property="titleTxtField" destination="iL1-7f-Lzb" id="a0I-yc-f91"/>
+                <outlet property="txtView" destination="QRt-mb-Kvg" id="UVm-2M-elS"/>
+                <outlet property="verticalCenterConstraint" destination="NLb-2d-8br" id="T9J-fx-ezs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewOuter" destination="BaD-Hp-VJR" id="7ng-MM-BMq"/>
+                <outlet property="viewOuterHeightConstraint" destination="PAb-fW-jtf" id="far-0k-4Kq"/>
+                <outlet property="viewOuterPop" destination="mQA-Yb-VED" id="jcl-Li-nGd"/>
+                <outlet property="viewOuterWidthConstraint" destination="1x0-oz-abR" id="BX0-xo-VsV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BaD-Hp-VJR">
+                    <rect key="frame" x="48" y="154" width="280" height="360"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1a-9X-yHF">
+                            <rect key="frame" x="8" y="7" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="fBk-im-Sm8"/>
+                                <constraint firstAttribute="height" constant="30" id="lk9-An-the"/>
+                            </constraints>
+                            <state key="normal" image="cross_icon_pink"/>
+                            <connections>
+                                <action selector="crossBtnAction:" destination="-1" eventType="touchUpInside" id="8jf-O7-NOF"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fIj-ec-qQQ">
+                            <rect key="frame" x="45" y="24" width="190" height="58"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="58" id="0tM-0u-e9u"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="16"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QRt-mb-Kvg">
+                            <rect key="frame" x="20" y="80" width="240" height="207"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="207" id="lb3-Ty-Efq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="a0E-O3-jth"/>
+                            </connections>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onW-GZ-ER5">
+                            <rect key="frame" x="20" y="307" width="240" height="40"/>
+                            <color key="backgroundColor" red="0.99215686274509807" green="0.42352941176470588" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="xp7-vs-f9s"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="16"/>
+                            <state key="normal" title="Cancel Job">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelJobBtnAction:" destination="-1" eventType="touchUpInside" id="Yqn-wK-dX5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="1x0-oz-abR"/>
+                        <constraint firstAttribute="height" constant="360" id="PAb-fW-jtf"/>
+                        <constraint firstItem="fIj-ec-qQQ" firstAttribute="leading" secondItem="m1a-9X-yHF" secondAttribute="trailing" constant="7" id="ZTc-Lb-mTf"/>
+                        <constraint firstAttribute="trailing" secondItem="onW-GZ-ER5" secondAttribute="trailing" constant="20" id="ZtJ-ts-MUv"/>
+                        <constraint firstAttribute="trailing" secondItem="QRt-mb-Kvg" secondAttribute="trailing" constant="20" id="dXD-g4-ezk"/>
+                        <constraint firstItem="fIj-ec-qQQ" firstAttribute="top" secondItem="BaD-Hp-VJR" secondAttribute="top" constant="24" id="eAA-T8-eoq"/>
+                        <constraint firstItem="QRt-mb-Kvg" firstAttribute="leading" secondItem="BaD-Hp-VJR" secondAttribute="leading" constant="20" id="haa-aF-Bt3"/>
+                        <constraint firstAttribute="trailing" secondItem="fIj-ec-qQQ" secondAttribute="trailing" constant="45" id="jkl-Hd-iMN"/>
+                        <constraint firstItem="m1a-9X-yHF" firstAttribute="top" secondItem="BaD-Hp-VJR" secondAttribute="top" constant="7" id="mOZ-Rh-lup"/>
+                        <constraint firstItem="QRt-mb-Kvg" firstAttribute="top" secondItem="m1a-9X-yHF" secondAttribute="bottom" constant="43" id="rlq-tF-hJx"/>
+                        <constraint firstItem="onW-GZ-ER5" firstAttribute="leading" secondItem="BaD-Hp-VJR" secondAttribute="leading" constant="20" id="shb-cM-ad9"/>
+                        <constraint firstAttribute="bottom" secondItem="onW-GZ-ER5" secondAttribute="bottom" constant="13" id="tCB-Ob-w7q"/>
+                        <constraint firstItem="m1a-9X-yHF" firstAttribute="leading" secondItem="BaD-Hp-VJR" secondAttribute="leading" constant="8" id="wKq-ue-bZ5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mQA-Yb-VED">
+                    <rect key="frame" x="48" y="151" width="280" height="365"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of the services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="zle-l9-1n7">
+                            <rect key="frame" x="70.5" y="22" width="139" height="17"/>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iL1-7f-Lzb">
+                            <rect key="frame" x="20" y="52" width="240" height="40"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="5cS-dD-wVw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="jqh-7e-byK"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description of the Job" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="tYc-FV-AYq">
+                            <rect key="frame" x="60.5" y="104" width="158.5" height="17"/>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RY3-Wb-pdn">
+                            <rect key="frame" x="20" y="130" width="240" height="40"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="XKT-eI-YQC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Lqn-ib-qgh"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price to be Paid:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="DzN-pJ-8c0">
+                            <rect key="frame" x="20" y="191" width="128" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="WfQ-ul-Hs4"/>
+                                <constraint firstAttribute="width" constant="128" id="ws5-tj-EAQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="p04-gT-rqH">
+                            <rect key="frame" x="128.5" y="243" width="22.5" height="17"/>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAC-r4-iHz">
+                            <rect key="frame" x="20" y="269" width="140" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="BHX-I0-T9d"/>
+                                <constraint firstAttribute="height" constant="39" id="WUA-N9-huW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Use $50" image="check_icon1">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="check_icon_sel1"/>
+                            <connections>
+                                <action selector="checkboxAction:" destination="-1" eventType="touchUpInside" id="Vru-Ah-tks"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvH-ct-fJS">
+                            <rect key="frame" x="9" y="6" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="44N-oN-5As"/>
+                                <constraint firstAttribute="height" constant="30" id="bSh-Eg-vrS"/>
+                            </constraints>
+                            <state key="normal" image="cross_icon"/>
+                            <connections>
+                                <action selector="crossBtnAction:" destination="-1" eventType="touchUpInside" id="Cer-8q-HpT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akt-EG-iZd">
+                            <rect key="frame" x="20" y="315" width="240" height="40"/>
+                            <color key="backgroundColor" red="0.2196078431372549" green="0.71372549019607845" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="6q7-lW-me1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="16"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="okBtnAction:" destination="-1" eventType="touchUpInside" id="fv3-rJ-LML"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Price($)/Hour" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="793-JB-8aT">
+                            <rect key="frame" x="151" y="182" width="109" height="40"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="kIy-S6-Hyx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="1Zm-Ni-qQV"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="iL1-7f-Lzb" firstAttribute="top" secondItem="zle-l9-1n7" secondAttribute="bottom" constant="13" id="5PQ-OF-CIj"/>
+                        <constraint firstItem="BvH-ct-fJS" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="9" id="9G2-St-u2D"/>
+                        <constraint firstAttribute="height" constant="365" id="CUi-3Q-Ey3"/>
+                        <constraint firstItem="tYc-FV-AYq" firstAttribute="centerX" secondItem="mQA-Yb-VED" secondAttribute="centerX" id="FaF-q6-1f8"/>
+                        <constraint firstItem="793-JB-8aT" firstAttribute="leading" secondItem="DzN-pJ-8c0" secondAttribute="trailing" constant="3" id="HZI-5N-bjg"/>
+                        <constraint firstItem="793-JB-8aT" firstAttribute="top" secondItem="RY3-Wb-pdn" secondAttribute="bottom" constant="12" id="KwH-al-QFe"/>
+                        <constraint firstItem="DzN-pJ-8c0" firstAttribute="top" secondItem="RY3-Wb-pdn" secondAttribute="bottom" constant="21" id="MJg-Z1-DYH"/>
+                        <constraint firstAttribute="trailing" secondItem="793-JB-8aT" secondAttribute="trailing" constant="20" id="PjB-gP-ViD"/>
+                        <constraint firstAttribute="trailing" secondItem="Akt-EG-iZd" secondAttribute="trailing" constant="20" id="QLC-7J-p1S"/>
+                        <constraint firstItem="BvH-ct-fJS" firstAttribute="top" secondItem="mQA-Yb-VED" secondAttribute="top" constant="6" id="Tew-vB-WfU"/>
+                        <constraint firstItem="zle-l9-1n7" firstAttribute="top" secondItem="mQA-Yb-VED" secondAttribute="top" constant="22" id="Xlz-HH-ds4"/>
+                        <constraint firstAttribute="trailing" secondItem="iL1-7f-Lzb" secondAttribute="trailing" constant="20" id="Zkh-kS-cQo"/>
+                        <constraint firstAttribute="width" constant="280" id="aXg-kI-ezG"/>
+                        <constraint firstItem="tYc-FV-AYq" firstAttribute="top" secondItem="iL1-7f-Lzb" secondAttribute="bottom" constant="12" id="e7W-Fi-k1M"/>
+                        <constraint firstItem="DzN-pJ-8c0" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="20" id="fd5-cp-uqe"/>
+                        <constraint firstAttribute="trailing" secondItem="RY3-Wb-pdn" secondAttribute="trailing" constant="20" id="gbf-vZ-RjU"/>
+                        <constraint firstItem="AAC-r4-iHz" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="20" id="hem-uT-bMY"/>
+                        <constraint firstItem="Akt-EG-iZd" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="20" id="iFb-al-Mpp"/>
+                        <constraint firstItem="zle-l9-1n7" firstAttribute="centerX" secondItem="mQA-Yb-VED" secondAttribute="centerX" id="iFk-dI-W7K"/>
+                        <constraint firstItem="p04-gT-rqH" firstAttribute="top" secondItem="793-JB-8aT" secondAttribute="bottom" constant="21" id="mys-7y-PUK"/>
+                        <constraint firstItem="RY3-Wb-pdn" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="20" id="pTB-s5-8nf"/>
+                        <constraint firstItem="Akt-EG-iZd" firstAttribute="top" secondItem="AAC-r4-iHz" secondAttribute="bottom" constant="7" id="s3c-Jw-PuK"/>
+                        <constraint firstItem="p04-gT-rqH" firstAttribute="centerX" secondItem="mQA-Yb-VED" secondAttribute="centerX" id="slH-j7-j4B"/>
+                        <constraint firstItem="AAC-r4-iHz" firstAttribute="top" secondItem="p04-gT-rqH" secondAttribute="bottom" constant="9" id="uvi-Vv-cAf"/>
+                        <constraint firstItem="RY3-Wb-pdn" firstAttribute="top" secondItem="tYc-FV-AYq" secondAttribute="bottom" constant="9" id="vWT-Qi-J2G"/>
+                        <constraint firstItem="iL1-7f-Lzb" firstAttribute="leading" secondItem="mQA-Yb-VED" secondAttribute="leading" constant="20" id="wzk-ee-Fm0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BaD-Hp-VJR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1Hc-cX-SXh"/>
+                <constraint firstItem="mQA-Yb-VED" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I3d-Vj-mUs"/>
+                <constraint firstItem="BaD-Hp-VJR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="NLb-2d-8br"/>
+                <constraint firstItem="mQA-Yb-VED" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="aCR-gY-1tb"/>
+            </constraints>
+            <point key="canvasLocation" x="331" y="-42"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="check_icon1" width="30" height="30"/>
+        <image name="check_icon_sel1" width="30" height="30"/>
+        <image name="cross_icon" width="38" height="38"/>
+        <image name="cross_icon_pink" width="38" height="38"/>
+    </resources>
+</document>

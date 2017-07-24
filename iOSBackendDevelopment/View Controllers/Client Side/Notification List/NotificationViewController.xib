@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CANDARA.TTF">
+            <string>Candara</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotificationViewController">
+            <connections>
+                <outlet property="btnMenu" destination="Ngo-1c-hgu" id="61d-pM-Z1l"/>
+                <outlet property="lblMyNotification" destination="mvO-2H-gSA" id="4jT-bB-x2J"/>
+                <outlet property="notificationTableView" destination="HNo-wn-dAf" id="jmh-dW-qLR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8Wp-J7-qgb"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HNo-wn-dAf">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="a4E-68-po9"/>
+                        <outlet property="delegate" destination="-1" id="FY9-Ll-Zsv"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjU-5l-X3Y">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="mvO-2H-gSA">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="7Wf-Ux-r74"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Candara" family="Candara" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngo-1c-hgu">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="2tb-vx-bW3"/>
+                                <constraint firstAttribute="height" constant="64" id="fzi-1y-rMk"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="20" maxX="20" maxY="0.0"/>
+                            <state key="normal" image="menu_icon">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="menuAction:" destination="-1" eventType="touchUpInside" id="mr9-6Y-7hX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Ngo-1c-hgu" firstAttribute="top" secondItem="UjU-5l-X3Y" secondAttribute="top" id="6w9-7i-8h7"/>
+                        <constraint firstItem="mvO-2H-gSA" firstAttribute="top" secondItem="UjU-5l-X3Y" secondAttribute="top" constant="27" id="AKV-Ki-T2k"/>
+                        <constraint firstItem="mvO-2H-gSA" firstAttribute="leading" secondItem="Ngo-1c-hgu" secondAttribute="trailing" constant="2" id="AUk-3n-dph"/>
+                        <constraint firstItem="mvO-2H-gSA" firstAttribute="centerX" secondItem="UjU-5l-X3Y" secondAttribute="centerX" constant="9.5" id="MiE-3G-JkL"/>
+                        <constraint firstItem="Ngo-1c-hgu" firstAttribute="leading" secondItem="UjU-5l-X3Y" secondAttribute="leading" id="dHP-Oa-Bd5"/>
+                        <constraint firstAttribute="height" constant="64" id="jjj-tQ-1sz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UjU-5l-X3Y" secondAttribute="trailing" id="3HC-GV-jjT"/>
+                <constraint firstAttribute="bottom" secondItem="HNo-wn-dAf" secondAttribute="bottom" id="Ebe-ku-lPD"/>
+                <constraint firstItem="HNo-wn-dAf" firstAttribute="top" secondItem="UjU-5l-X3Y" secondAttribute="bottom" constant="10" id="Hh6-R2-hDq"/>
+                <constraint firstItem="UjU-5l-X3Y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LeZ-AH-Rst"/>
+                <constraint firstItem="8Wp-J7-qgb" firstAttribute="top" secondItem="UjU-5l-X3Y" secondAttribute="bottom" id="aP0-Fg-bU4"/>
+                <constraint firstAttribute="trailing" secondItem="8Wp-J7-qgb" secondAttribute="trailing" id="anZ-Go-Vh8"/>
+                <constraint firstItem="UjU-5l-X3Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o3e-Yz-wEu"/>
+                <constraint firstItem="HNo-wn-dAf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="7" id="pBY-DC-iAb"/>
+                <constraint firstAttribute="trailing" secondItem="HNo-wn-dAf" secondAttribute="trailing" constant="6" id="puS-8r-3mi"/>
+                <constraint firstAttribute="bottom" secondItem="8Wp-J7-qgb" secondAttribute="bottom" id="t6s-Pf-sbt"/>
+                <constraint firstItem="8Wp-J7-qgb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vVF-0v-H9N"/>
+            </constraints>
+            <point key="canvasLocation" x="-23.5" y="38.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="320" height="480"/>
+        <image name="menu_icon" width="30" height="30"/>
+    </resources>
+</document>
